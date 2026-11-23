@@ -197,7 +197,7 @@ def generate(seed: int = 42, out_dir: Path | None = None,
     gaps["defect_without_req"] = [d["defect_id"] for d in defects if d["linked_req_id"] is None]
 
     # CAPAs on Critical/Major defects: ~20% overdue, ~15% closed late,
-    # ~10% of closed ones never checked for effectiveness
+    # ~15% of closed ones never checked for effectiveness
     capas = []
     serious = [d for d in defects if d["severity"] != "Minor"]
     for i, d in enumerate(rng.sample(serious, min(80, len(serious))), start=1):
