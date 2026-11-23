@@ -221,3 +221,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project
+data/pa.db
+*.db-journal
+data/out/*
+!data/out/.gitkeep

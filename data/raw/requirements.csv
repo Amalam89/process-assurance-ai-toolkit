@@ -1,0 +1,301 @@
+req_id,project,title,priority,status
+REQ-0001,Connectivity-Gateway,The system shall support crew announcements (1),High,Approved
+REQ-0002,Crew-Tablet,The system shall support parental controls (2),Low,Approved
+REQ-0003,IFE-Seatback,The system shall support Wi-Fi portal login (3),High,Approved
+REQ-0004,Connectivity-Gateway,The system shall support moving map (4),High,Approved
+REQ-0005,Crew-Tablet,The system shall support crew announcements (5),High,Approved
+REQ-0006,IFE-Seatback,The system shall support crew announcements (6),Low,Approved
+REQ-0007,Connectivity-Gateway,The system shall support audio language selection (7),High,Approved
+REQ-0008,Crew-Tablet,The system shall support audio language selection (8),Medium,Approved
+REQ-0009,IFE-Seatback,The system shall support parental controls (9),High,Approved
+REQ-0010,Connectivity-Gateway,The system shall support parental controls (10),High,Approved
+REQ-0011,Crew-Tablet,The system shall support moving map (11),Low,Approved
+REQ-0012,IFE-Seatback,The system shall support audio language selection (12),High,Approved
+REQ-0013,Connectivity-Gateway,The system shall support audio language selection (13),High,Approved
+REQ-0014,Crew-Tablet,The system shall support crew announcements (14),Low,Approved
+REQ-0015,IFE-Seatback,The system shall support crew announcements (15),Low,Approved
+REQ-0016,Connectivity-Gateway,The system shall support seat pairing (16),High,Approved
+REQ-0017,Crew-Tablet,The system shall support seat pairing (17),Low,Approved
+REQ-0018,IFE-Seatback,The system shall support Wi-Fi portal login (18),High,Approved
+REQ-0019,Connectivity-Gateway,The system shall support moving map (19),Low,Approved
+REQ-0020,Crew-Tablet,The system shall support seat pairing (20),Medium,Approved
+REQ-0021,IFE-Seatback,The system shall support Wi-Fi portal login (21),High,Approved
+REQ-0022,Connectivity-Gateway,The system shall support moving map (22),Medium,Approved
+REQ-0023,Crew-Tablet,The system shall support parental controls (23),High,Approved
+REQ-0024,IFE-Seatback,The system shall support seat pairing (24),High,Approved
+REQ-0025,Connectivity-Gateway,The system shall support Wi-Fi portal login (25),Medium,Approved
+REQ-0026,Crew-Tablet,The system shall support audio language selection (26),Medium,Approved
+REQ-0027,IFE-Seatback,The system shall support parental controls (27),Low,Approved
+REQ-0028,Connectivity-Gateway,The system shall support seat pairing (28),Low,Approved
+REQ-0029,Crew-Tablet,The system shall support parental controls (29),Medium,Approved
+REQ-0030,IFE-Seatback,The system shall support parental controls (30),Low,Approved
+REQ-0031,Connectivity-Gateway,The system shall support Wi-Fi portal login (31),Low,Approved
+REQ-0032,Crew-Tablet,The system shall support audio language selection (32),Medium,Approved
+REQ-0033,IFE-Seatback,The system shall support audio language selection (33),High,Approved
+REQ-0034,Connectivity-Gateway,The system shall support crew announcements (34),High,Approved
+REQ-0035,Crew-Tablet,The system shall support parental controls (35),Low,Approved
+REQ-0036,IFE-Seatback,The system shall support moving map (36),Medium,Approved
+REQ-0037,Connectivity-Gateway,The system shall support parental controls (37),High,Approved
+REQ-0038,Crew-Tablet,The system shall support parental controls (38),Medium,Approved
+REQ-0039,IFE-Seatback,The system shall support Wi-Fi portal login (39),Medium,Approved
+REQ-0040,Connectivity-Gateway,The system shall support crew announcements (40),Medium,Approved
+REQ-0041,Crew-Tablet,The system shall support moving map (41),Medium,Approved
+REQ-0042,IFE-Seatback,The system shall support Wi-Fi portal login (42),High,Approved
+REQ-0043,Connectivity-Gateway,The system shall support crew announcements (43),Medium,Approved
+REQ-0044,Crew-Tablet,The system shall support crew announcements (44),Low,Approved
+REQ-0045,IFE-Seatback,The system shall support crew announcements (45),High,Approved
+REQ-0046,Connectivity-Gateway,The system shall support audio language selection (46),Low,Approved
+REQ-0047,Crew-Tablet,The system shall support moving map (47),Low,Approved
+REQ-0048,IFE-Seatback,The system shall support crew announcements (48),High,Approved
+REQ-0049,Connectivity-Gateway,The system shall support moving map (49),Medium,Approved
+REQ-0050,Crew-Tablet,The system shall support seat pairing (50),Medium,Approved
+REQ-0051,IFE-Seatback,The system shall support crew announcements (51),Low,Approved
+REQ-0052,Connectivity-Gateway,The system shall support audio language selection (52),High,Approved
+REQ-0053,Crew-Tablet,The system shall support crew announcements (53),Medium,Approved
+REQ-0054,IFE-Seatback,The system shall support parental controls (54),High,Approved
+REQ-0055,Connectivity-Gateway,The system shall support parental controls (55),Medium,Approved
+REQ-0056,Crew-Tablet,The system shall support seat pairing (56),Medium,Approved
+REQ-0057,IFE-Seatback,The system shall support parental controls (57),High,Approved
+REQ-0058,Connectivity-Gateway,The system shall support audio language selection (58),Low,Approved
+REQ-0059,Crew-Tablet,The system shall support Wi-Fi portal login (59),High,Approved
+REQ-0060,IFE-Seatback,The system shall support crew announcements (60),Medium,Approved
+REQ-0061,Connectivity-Gateway,The system shall support seat pairing (61),Low,Approved
+REQ-0062,Crew-Tablet,The system shall support seat pairing (62),High,Approved
+REQ-0063,IFE-Seatback,The system shall support Wi-Fi portal login (63),High,Approved
+REQ-0064,Connectivity-Gateway,The system shall support moving map (64),Low,Approved
+REQ-0065,Crew-Tablet,The system shall support audio language selection (65),Low,Approved
+REQ-0066,IFE-Seatback,The system shall support Wi-Fi portal login (66),Low,Approved
+REQ-0067,Connectivity-Gateway,The system shall support audio language selection (67),Medium,Approved
+REQ-0068,Crew-Tablet,The system shall support audio language selection (68),Medium,Approved
+REQ-0069,IFE-Seatback,The system shall support Wi-Fi portal login (69),High,Approved
+REQ-0070,Connectivity-Gateway,The system shall support moving map (70),Low,Approved
+REQ-0071,Crew-Tablet,The system shall support seat pairing (71),High,Approved
+REQ-0072,IFE-Seatback,The system shall support parental controls (72),High,Approved
+REQ-0073,Connectivity-Gateway,The system shall support moving map (73),Low,Approved
+REQ-0074,Crew-Tablet,The system shall support moving map (74),Low,Approved
+REQ-0075,IFE-Seatback,The system shall support seat pairing (75),Low,Approved
+REQ-0076,Connectivity-Gateway,The system shall support parental controls (76),Medium,Approved
+REQ-0077,Crew-Tablet,The system shall support seat pairing (77),Low,Approved
+REQ-0078,IFE-Seatback,The system shall support seat pairing (78),Low,Approved
+REQ-0079,Connectivity-Gateway,The system shall support Wi-Fi portal login (79),Low,Approved
+REQ-0080,Crew-Tablet,The system shall support parental controls (80),Low,Approved
+REQ-0081,IFE-Seatback,The system shall support crew announcements (81),High,Approved
+REQ-0082,Connectivity-Gateway,The system shall support crew announcements (82),Low,Approved
+REQ-0083,Crew-Tablet,The system shall support Wi-Fi portal login (83),Low,Approved
+REQ-0084,IFE-Seatback,The system shall support Wi-Fi portal login (84),High,Approved
+REQ-0085,Connectivity-Gateway,The system shall support Wi-Fi portal login (85),Medium,Approved
+REQ-0086,Crew-Tablet,The system shall support moving map (86),Medium,Approved
+REQ-0087,IFE-Seatback,The system shall support parental controls (87),Low,Approved
+REQ-0088,Connectivity-Gateway,The system shall support crew announcements (88),Medium,Approved
+REQ-0089,Crew-Tablet,The system shall support audio language selection (89),High,Approved
+REQ-0090,IFE-Seatback,The system shall support audio language selection (90),High,Approved
+REQ-0091,Connectivity-Gateway,The system shall support crew announcements (91),Medium,Approved
+REQ-0092,Crew-Tablet,The system shall support crew announcements (92),Low,Approved
+REQ-0093,IFE-Seatback,The system shall support audio language selection (93),High,Approved
+REQ-0094,Connectivity-Gateway,The system shall support moving map (94),Medium,Approved
+REQ-0095,Crew-Tablet,The system shall support moving map (95),Low,Approved
+REQ-0096,IFE-Seatback,The system shall support audio language selection (96),High,Approved
+REQ-0097,Connectivity-Gateway,The system shall support audio language selection (97),Medium,Approved
+REQ-0098,Crew-Tablet,The system shall support seat pairing (98),High,Approved
+REQ-0099,IFE-Seatback,The system shall support parental controls (99),Medium,Approved
+REQ-0100,Connectivity-Gateway,The system shall support Wi-Fi portal login (100),High,Approved
+REQ-0101,Crew-Tablet,The system shall support parental controls (101),High,Approved
+REQ-0102,IFE-Seatback,The system shall support audio language selection (102),High,Approved
+REQ-0103,Connectivity-Gateway,The system shall support parental controls (103),Low,Approved
+REQ-0104,Crew-Tablet,The system shall support seat pairing (104),High,Approved
+REQ-0105,IFE-Seatback,The system shall support audio language selection (105),High,Approved
+REQ-0106,Connectivity-Gateway,The system shall support moving map (106),Low,Approved
+REQ-0107,Crew-Tablet,The system shall support seat pairing (107),Low,Approved
+REQ-0108,IFE-Seatback,The system shall support moving map (108),Medium,Approved
+REQ-0109,Connectivity-Gateway,The system shall support audio language selection (109),Low,Approved
+REQ-0110,Crew-Tablet,The system shall support seat pairing (110),High,Approved
+REQ-0111,IFE-Seatback,The system shall support audio language selection (111),Low,Approved
+REQ-0112,Connectivity-Gateway,The system shall support crew announcements (112),High,Approved
+REQ-0113,Crew-Tablet,The system shall support crew announcements (113),Medium,Approved
+REQ-0114,IFE-Seatback,The system shall support seat pairing (114),Low,Approved
+REQ-0115,Connectivity-Gateway,The system shall support crew announcements (115),Medium,Approved
+REQ-0116,Crew-Tablet,The system shall support seat pairing (116),Low,Approved
+REQ-0117,IFE-Seatback,The system shall support seat pairing (117),High,Approved
+REQ-0118,Connectivity-Gateway,The system shall support moving map (118),High,Approved
+REQ-0119,Crew-Tablet,The system shall support parental controls (119),Medium,Approved
+REQ-0120,IFE-Seatback,The system shall support parental controls (120),Low,Approved
+REQ-0121,Connectivity-Gateway,The system shall support audio language selection (121),High,Approved
+REQ-0122,Crew-Tablet,The system shall support audio language selection (122),High,Approved
+REQ-0123,IFE-Seatback,The system shall support parental controls (123),High,Approved
+REQ-0124,Connectivity-Gateway,The system shall support crew announcements (124),Low,Approved
+REQ-0125,Crew-Tablet,The system shall support parental controls (125),High,Approved
+REQ-0126,IFE-Seatback,The system shall support parental controls (126),High,Approved
+REQ-0127,Connectivity-Gateway,The system shall support Wi-Fi portal login (127),High,Approved
+REQ-0128,Crew-Tablet,The system shall support audio language selection (128),High,Approved
+REQ-0129,IFE-Seatback,The system shall support Wi-Fi portal login (129),Low,Approved
+REQ-0130,Connectivity-Gateway,The system shall support seat pairing (130),High,Approved
+REQ-0131,Crew-Tablet,The system shall support audio language selection (131),High,Approved
+REQ-0132,IFE-Seatback,The system shall support crew announcements (132),Low,Approved
+REQ-0133,Connectivity-Gateway,The system shall support audio language selection (133),Medium,Approved
+REQ-0134,Crew-Tablet,The system shall support moving map (134),Medium,Approved
+REQ-0135,IFE-Seatback,The system shall support seat pairing (135),High,Approved
+REQ-0136,Connectivity-Gateway,The system shall support parental controls (136),High,Approved
+REQ-0137,Crew-Tablet,The system shall support crew announcements (137),Medium,Approved
+REQ-0138,IFE-Seatback,The system shall support Wi-Fi portal login (138),Medium,Approved
+REQ-0139,Connectivity-Gateway,The system shall support seat pairing (139),Medium,Approved
+REQ-0140,Crew-Tablet,The system shall support crew announcements (140),High,Approved
+REQ-0141,IFE-Seatback,The system shall support crew announcements (141),Low,Approved
+REQ-0142,Connectivity-Gateway,The system shall support crew announcements (142),High,Approved
+REQ-0143,Crew-Tablet,The system shall support parental controls (143),Medium,Approved
+REQ-0144,IFE-Seatback,The system shall support crew announcements (144),Medium,Approved
+REQ-0145,Connectivity-Gateway,The system shall support parental controls (145),High,Approved
+REQ-0146,Crew-Tablet,The system shall support moving map (146),High,Approved
+REQ-0147,IFE-Seatback,The system shall support audio language selection (147),Medium,Approved
+REQ-0148,Connectivity-Gateway,The system shall support moving map (148),Medium,Approved
+REQ-0149,Crew-Tablet,The system shall support moving map (149),Medium,Approved
+REQ-0150,IFE-Seatback,The system shall support seat pairing (150),High,Approved
+REQ-0151,Connectivity-Gateway,The system shall support parental controls (151),Medium,Approved
+REQ-0152,Crew-Tablet,The system shall support audio language selection (152),High,Approved
+REQ-0153,IFE-Seatback,The system shall support parental controls (153),Low,Approved
+REQ-0154,Connectivity-Gateway,The system shall support audio language selection (154),High,Approved
+REQ-0155,Crew-Tablet,The system shall support parental controls (155),High,Approved
+REQ-0156,IFE-Seatback,The system shall support moving map (156),Medium,Approved
+REQ-0157,Connectivity-Gateway,The system shall support seat pairing (157),Medium,Approved
+REQ-0158,Crew-Tablet,The system shall support moving map (158),Medium,Approved
+REQ-0159,IFE-Seatback,The system shall support parental controls (159),High,Approved
+REQ-0160,Connectivity-Gateway,The system shall support seat pairing (160),High,Approved
+REQ-0161,Crew-Tablet,The system shall support seat pairing (161),Medium,Approved
+REQ-0162,IFE-Seatback,The system shall support seat pairing (162),Medium,Approved
+REQ-0163,Connectivity-Gateway,The system shall support seat pairing (163),Low,Approved
+REQ-0164,Crew-Tablet,The system shall support crew announcements (164),Low,Approved
+REQ-0165,IFE-Seatback,The system shall support crew announcements (165),Low,Approved
+REQ-0166,Connectivity-Gateway,The system shall support seat pairing (166),High,Approved
+REQ-0167,Crew-Tablet,The system shall support moving map (167),Medium,Approved
+REQ-0168,IFE-Seatback,The system shall support moving map (168),High,Approved
+REQ-0169,Connectivity-Gateway,The system shall support audio language selection (169),Low,Approved
+REQ-0170,Crew-Tablet,The system shall support audio language selection (170),High,Approved
+REQ-0171,IFE-Seatback,The system shall support crew announcements (171),Medium,Approved
+REQ-0172,Connectivity-Gateway,The system shall support parental controls (172),High,Approved
+REQ-0173,Crew-Tablet,The system shall support audio language selection (173),Medium,Approved
+REQ-0174,IFE-Seatback,The system shall support audio language selection (174),Low,Approved
+REQ-0175,Connectivity-Gateway,The system shall support moving map (175),High,Approved
+REQ-0176,Crew-Tablet,The system shall support audio language selection (176),High,Approved
+REQ-0177,IFE-Seatback,The system shall support moving map (177),High,Approved
+REQ-0178,Connectivity-Gateway,The system shall support audio language selection (178),High,Approved
+REQ-0179,Crew-Tablet,The system shall support crew announcements (179),High,Approved
+REQ-0180,IFE-Seatback,The system shall support seat pairing (180),High,Approved
+REQ-0181,Connectivity-Gateway,The system shall support audio language selection (181),High,Approved
+REQ-0182,Crew-Tablet,The system shall support audio language selection (182),Low,Approved
+REQ-0183,IFE-Seatback,The system shall support parental controls (183),Low,Approved
+REQ-0184,Connectivity-Gateway,The system shall support parental controls (184),Medium,Approved
+REQ-0185,Crew-Tablet,The system shall support crew announcements (185),Low,Approved
+REQ-0186,IFE-Seatback,The system shall support audio language selection (186),Low,Approved
+REQ-0187,Connectivity-Gateway,The system shall support Wi-Fi portal login (187),Medium,Approved
+REQ-0188,Crew-Tablet,The system shall support moving map (188),Low,Approved
+REQ-0189,IFE-Seatback,The system shall support crew announcements (189),Medium,Approved
+REQ-0190,Connectivity-Gateway,The system shall support moving map (190),Medium,Approved
+REQ-0191,Crew-Tablet,The system shall support seat pairing (191),High,Approved
+REQ-0192,IFE-Seatback,The system shall support crew announcements (192),Low,Approved
+REQ-0193,Connectivity-Gateway,The system shall support Wi-Fi portal login (193),Medium,Approved
+REQ-0194,Crew-Tablet,The system shall support Wi-Fi portal login (194),High,Approved
+REQ-0195,IFE-Seatback,The system shall support parental controls (195),Medium,Approved
+REQ-0196,Connectivity-Gateway,The system shall support audio language selection (196),Low,Approved
+REQ-0197,Crew-Tablet,The system shall support parental controls (197),High,Approved
+REQ-0198,IFE-Seatback,The system shall support audio language selection (198),High,Approved
+REQ-0199,Connectivity-Gateway,The system shall support audio language selection (199),Medium,Approved
+REQ-0200,Crew-Tablet,The system shall support moving map (200),Medium,Approved
+REQ-0201,IFE-Seatback,The system shall support parental controls (201),High,Approved
+REQ-0202,Connectivity-Gateway,The system shall support Wi-Fi portal login (202),Medium,Approved
+REQ-0203,Crew-Tablet,The system shall support moving map (203),Medium,Approved
+REQ-0204,IFE-Seatback,The system shall support audio language selection (204),Low,Approved
+REQ-0205,Connectivity-Gateway,The system shall support Wi-Fi portal login (205),Low,Approved
+REQ-0206,Crew-Tablet,The system shall support crew announcements (206),Low,Approved
+REQ-0207,IFE-Seatback,The system shall support parental controls (207),Low,Approved
+REQ-0208,Connectivity-Gateway,The system shall support audio language selection (208),Medium,Approved
+REQ-0209,Crew-Tablet,The system shall support crew announcements (209),High,Approved
+REQ-0210,IFE-Seatback,The system shall support moving map (210),Medium,Approved
+REQ-0211,Connectivity-Gateway,The system shall support parental controls (211),High,Approved
+REQ-0212,Crew-Tablet,The system shall support crew announcements (212),Low,Approved
+REQ-0213,IFE-Seatback,The system shall support moving map (213),Medium,Approved
+REQ-0214,Connectivity-Gateway,The system shall support Wi-Fi portal login (214),Low,Approved
+REQ-0215,Crew-Tablet,The system shall support moving map (215),Low,Approved
+REQ-0216,IFE-Seatback,The system shall support Wi-Fi portal login (216),High,Approved
+REQ-0217,Connectivity-Gateway,The system shall support crew announcements (217),Low,Approved
+REQ-0218,Crew-Tablet,The system shall support Wi-Fi portal login (218),Low,Approved
+REQ-0219,IFE-Seatback,The system shall support seat pairing (219),Medium,Approved
+REQ-0220,Connectivity-Gateway,The system shall support parental controls (220),High,Approved
+REQ-0221,Crew-Tablet,The system shall support crew announcements (221),Medium,Approved
+REQ-0222,IFE-Seatback,The system shall support Wi-Fi portal login (222),High,Approved
+REQ-0223,Connectivity-Gateway,The system shall support parental controls (223),Medium,Approved
+REQ-0224,Crew-Tablet,The system shall support moving map (224),Low,Approved
+REQ-0225,IFE-Seatback,The system shall support Wi-Fi portal login (225),High,Approved
+REQ-0226,Connectivity-Gateway,The system shall support crew announcements (226),Medium,Approved
+REQ-0227,Crew-Tablet,The system shall support audio language selection (227),Low,Approved
+REQ-0228,IFE-Seatback,The system shall support seat pairing (228),Low,Approved
+REQ-0229,Connectivity-Gateway,The system shall support parental controls (229),High,Approved
+REQ-0230,Crew-Tablet,The system shall support parental controls (230),Low,Approved
+REQ-0231,IFE-Seatback,The system shall support moving map (231),Low,Approved
+REQ-0232,Connectivity-Gateway,The system shall support parental controls (232),Medium,Approved
+REQ-0233,Crew-Tablet,The system shall support audio language selection (233),Low,Approved
+REQ-0234,IFE-Seatback,The system shall support moving map (234),Medium,Approved
+REQ-0235,Connectivity-Gateway,The system shall support moving map (235),High,Approved
+REQ-0236,Crew-Tablet,The system shall support Wi-Fi portal login (236),Medium,Approved
+REQ-0237,IFE-Seatback,The system shall support parental controls (237),Medium,Approved
+REQ-0238,Connectivity-Gateway,The system shall support moving map (238),Low,Approved
+REQ-0239,Crew-Tablet,The system shall support moving map (239),Low,Approved
+REQ-0240,IFE-Seatback,The system shall support parental controls (240),Medium,Approved
+REQ-0241,Connectivity-Gateway,The system shall support audio language selection (241),Medium,Approved
+REQ-0242,Crew-Tablet,The system shall support audio language selection (242),Low,Approved
+REQ-0243,IFE-Seatback,The system shall support moving map (243),High,Approved
+REQ-0244,Connectivity-Gateway,The system shall support moving map (244),High,Approved
+REQ-0245,Crew-Tablet,The system shall support seat pairing (245),High,Approved
+REQ-0246,IFE-Seatback,The system shall support moving map (246),Low,Approved
+REQ-0247,Connectivity-Gateway,The system shall support Wi-Fi portal login (247),Medium,Approved
+REQ-0248,Crew-Tablet,The system shall support crew announcements (248),Low,Approved
+REQ-0249,IFE-Seatback,The system shall support moving map (249),Medium,Approved
+REQ-0250,Connectivity-Gateway,The system shall support moving map (250),Low,Approved
+REQ-0251,Crew-Tablet,The system shall support parental controls (251),Medium,Approved
+REQ-0252,IFE-Seatback,The system shall support parental controls (252),Medium,Approved
+REQ-0253,Connectivity-Gateway,The system shall support moving map (253),High,Approved
+REQ-0254,Crew-Tablet,The system shall support seat pairing (254),Medium,Approved
+REQ-0255,IFE-Seatback,The system shall support Wi-Fi portal login (255),High,Approved
+REQ-0256,Connectivity-Gateway,The system shall support moving map (256),High,Approved
+REQ-0257,Crew-Tablet,The system shall support crew announcements (257),High,Approved
+REQ-0258,IFE-Seatback,The system shall support seat pairing (258),Medium,Approved
+REQ-0259,Connectivity-Gateway,The system shall support Wi-Fi portal login (259),High,Approved
+REQ-0260,Crew-Tablet,The system shall support Wi-Fi portal login (260),Medium,Approved
+REQ-0261,IFE-Seatback,The system shall support crew announcements (261),Low,Approved
+REQ-0262,Connectivity-Gateway,The system shall support seat pairing (262),Low,Approved
+REQ-0263,Crew-Tablet,The system shall support audio language selection (263),Medium,Approved
+REQ-0264,IFE-Seatback,The system shall support parental controls (264),High,Approved
+REQ-0265,Connectivity-Gateway,The system shall support Wi-Fi portal login (265),High,Approved
+REQ-0266,Crew-Tablet,The system shall support audio language selection (266),Medium,Approved
+REQ-0267,IFE-Seatback,The system shall support parental controls (267),High,Approved
+REQ-0268,Connectivity-Gateway,The system shall support audio language selection (268),Medium,Approved
+REQ-0269,Crew-Tablet,The system shall support Wi-Fi portal login (269),Low,Approved
+REQ-0270,IFE-Seatback,The system shall support Wi-Fi portal login (270),Medium,Approved
+REQ-0271,Connectivity-Gateway,The system shall support audio language selection (271),Low,Approved
+REQ-0272,Crew-Tablet,The system shall support parental controls (272),Medium,Approved
+REQ-0273,IFE-Seatback,The system shall support audio language selection (273),High,Approved
+REQ-0274,Connectivity-Gateway,The system shall support Wi-Fi portal login (274),High,Approved
+REQ-0275,Crew-Tablet,The system shall support crew announcements (275),Medium,Approved
+REQ-0276,IFE-Seatback,The system shall support parental controls (276),Low,Approved
+REQ-0277,Connectivity-Gateway,The system shall support audio language selection (277),Low,Approved
+REQ-0278,Crew-Tablet,The system shall support crew announcements (278),Low,Approved
+REQ-0279,IFE-Seatback,The system shall support crew announcements (279),Low,Approved
+REQ-0280,Connectivity-Gateway,The system shall support moving map (280),Medium,Approved
+REQ-0281,Crew-Tablet,The system shall support seat pairing (281),High,Approved
+REQ-0282,IFE-Seatback,The system shall support crew announcements (282),Medium,Approved
+REQ-0283,Connectivity-Gateway,The system shall support audio language selection (283),Medium,Approved
+REQ-0284,Crew-Tablet,The system shall support crew announcements (284),High,Approved
+REQ-0285,IFE-Seatback,The system shall support crew announcements (285),Medium,Approved
+REQ-0286,Connectivity-Gateway,The system shall support audio language selection (286),Medium,Approved
+REQ-0287,Crew-Tablet,The system shall support crew announcements (287),Medium,Approved
+REQ-0288,IFE-Seatback,The system shall support Wi-Fi portal login (288),Medium,Approved
+REQ-0289,Connectivity-Gateway,The system shall support crew announcements (289),Medium,Approved
+REQ-0290,Crew-Tablet,The system shall support audio language selection (290),High,Approved
+REQ-0291,IFE-Seatback,The system shall support moving map (291),Medium,Approved
+REQ-0292,Connectivity-Gateway,The system shall support crew announcements (292),Medium,Approved
+REQ-0293,Crew-Tablet,The system shall support crew announcements (293),Low,Approved
+REQ-0294,IFE-Seatback,The system shall support moving map (294),Low,Approved
+REQ-0295,Connectivity-Gateway,The system shall support audio language selection (295),Medium,Approved
+REQ-0296,Crew-Tablet,The system shall support seat pairing (296),Low,Approved
+REQ-0297,IFE-Seatback,The system shall support parental controls (297),Medium,Approved
+REQ-0298,Connectivity-Gateway,The system shall support Wi-Fi portal login (298),High,Approved
+REQ-0299,Crew-Tablet,The system shall support seat pairing (299),Low,Approved
+REQ-0300,IFE-Seatback,The system shall support audio language selection (300),Low,Approved

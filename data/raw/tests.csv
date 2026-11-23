@@ -1,0 +1,451 @@
+test_id,project,title,last_result,last_run
+TC-0001,Connectivity-Gateway,Verify seat pairing (1),pass,2026-09-22
+TC-0002,Crew-Tablet,Verify seat pairing (2),pass,2026-10-09
+TC-0003,IFE-Seatback,Verify crew announcements (3),pass,2026-07-14
+TC-0004,Connectivity-Gateway,Verify crew announcements (4),fail,2026-10-10
+TC-0005,Crew-Tablet,Verify parental controls (5),pass,2026-08-25
+TC-0006,IFE-Seatback,Verify crew announcements (6),pass,2026-07-31
+TC-0007,Connectivity-Gateway,Verify moving map (7),pass,2026-07-21
+TC-0008,Crew-Tablet,Verify moving map (8),not_run,
+TC-0009,IFE-Seatback,Verify parental controls (9),pass,2026-11-04
+TC-0010,Connectivity-Gateway,Verify audio language selection (10),pass,2026-11-09
+TC-0011,Crew-Tablet,Verify seat pairing (11),pass,2026-09-07
+TC-0012,IFE-Seatback,Verify crew announcements (12),pass,2026-07-08
+TC-0013,Connectivity-Gateway,Verify seat pairing (13),pass,2026-06-28
+TC-0014,Crew-Tablet,Verify seat pairing (14),pass,2026-10-11
+TC-0015,IFE-Seatback,Verify parental controls (15),fail,2026-08-03
+TC-0016,Connectivity-Gateway,Verify crew announcements (16),pass,2026-09-27
+TC-0017,Crew-Tablet,Verify audio language selection (17),pass,2026-10-22
+TC-0018,IFE-Seatback,Verify audio language selection (18),pass,2026-09-22
+TC-0019,Connectivity-Gateway,Verify seat pairing (19),pass,2026-10-08
+TC-0020,Crew-Tablet,Verify seat pairing (20),pass,2026-10-19
+TC-0021,IFE-Seatback,Verify seat pairing (21),pass,2026-09-30
+TC-0022,Connectivity-Gateway,Verify crew announcements (22),pass,2026-08-03
+TC-0023,Crew-Tablet,Verify seat pairing (23),pass,2026-10-12
+TC-0024,IFE-Seatback,Verify seat pairing (24),pass,2026-08-10
+TC-0025,Connectivity-Gateway,Verify moving map (25),fail,2026-08-13
+TC-0026,Crew-Tablet,Verify audio language selection (26),pass,2026-08-21
+TC-0027,IFE-Seatback,Verify moving map (27),fail,2026-07-09
+TC-0028,Connectivity-Gateway,Verify crew announcements (28),pass,2026-07-10
+TC-0029,Crew-Tablet,Verify seat pairing (29),pass,2026-09-15
+TC-0030,IFE-Seatback,Verify seat pairing (30),pass,2026-09-28
+TC-0031,Connectivity-Gateway,Verify seat pairing (31),fail,2026-09-16
+TC-0032,Crew-Tablet,Verify crew announcements (32),pass,2026-10-28
+TC-0033,IFE-Seatback,Verify audio language selection (33),not_run,
+TC-0034,Connectivity-Gateway,Verify Wi-Fi portal login (34),pass,2026-06-02
+TC-0035,Crew-Tablet,Verify seat pairing (35),pass,2026-09-08
+TC-0036,IFE-Seatback,Verify audio language selection (36),pass,2026-10-18
+TC-0037,Connectivity-Gateway,Verify moving map (37),pass,2026-10-03
+TC-0038,Crew-Tablet,Verify parental controls (38),pass,2026-10-03
+TC-0039,IFE-Seatback,Verify crew announcements (39),pass,2026-11-19
+TC-0040,Connectivity-Gateway,Verify seat pairing (40),pass,2026-07-13
+TC-0041,Crew-Tablet,Verify audio language selection (41),pass,2026-11-07
+TC-0042,IFE-Seatback,Verify seat pairing (42),not_run,
+TC-0043,Connectivity-Gateway,Verify parental controls (43),pass,2026-11-17
+TC-0044,Crew-Tablet,Verify moving map (44),fail,2026-09-18
+TC-0045,IFE-Seatback,Verify parental controls (45),pass,2026-07-17
+TC-0046,Connectivity-Gateway,Verify moving map (46),pass,2026-08-23
+TC-0047,Crew-Tablet,Verify seat pairing (47),pass,2026-08-26
+TC-0048,IFE-Seatback,Verify Wi-Fi portal login (48),pass,2026-09-16
+TC-0049,Connectivity-Gateway,Verify parental controls (49),pass,2026-09-29
+TC-0050,Crew-Tablet,Verify Wi-Fi portal login (50),pass,2026-06-14
+TC-0051,IFE-Seatback,Verify crew announcements (51),pass,2026-06-18
+TC-0052,Connectivity-Gateway,Verify parental controls (52),not_run,
+TC-0053,Crew-Tablet,Verify parental controls (53),pass,2026-07-22
+TC-0054,IFE-Seatback,Verify moving map (54),pass,2026-08-01
+TC-0055,Connectivity-Gateway,Verify audio language selection (55),pass,2026-06-30
+TC-0056,Crew-Tablet,Verify crew announcements (56),pass,2026-09-28
+TC-0057,IFE-Seatback,Verify moving map (57),pass,2026-09-03
+TC-0058,Connectivity-Gateway,Verify moving map (58),pass,2026-06-30
+TC-0059,Crew-Tablet,Verify audio language selection (59),pass,2026-06-28
+TC-0060,IFE-Seatback,Verify Wi-Fi portal login (60),not_run,
+TC-0061,Connectivity-Gateway,Verify seat pairing (61),pass,2026-09-05
+TC-0062,Crew-Tablet,Verify parental controls (62),pass,2026-07-21
+TC-0063,IFE-Seatback,Verify moving map (63),pass,2026-11-08
+TC-0064,Connectivity-Gateway,Verify crew announcements (64),fail,2026-08-17
+TC-0065,Crew-Tablet,Verify audio language selection (65),pass,2026-07-01
+TC-0066,IFE-Seatback,Verify audio language selection (66),pass,2026-08-28
+TC-0067,Connectivity-Gateway,Verify parental controls (67),pass,2026-09-03
+TC-0068,Crew-Tablet,Verify parental controls (68),pass,2026-08-27
+TC-0069,IFE-Seatback,Verify parental controls (69),pass,2026-10-04
+TC-0070,Connectivity-Gateway,Verify crew announcements (70),pass,2026-09-01
+TC-0071,Crew-Tablet,Verify crew announcements (71),pass,2026-09-26
+TC-0072,IFE-Seatback,Verify crew announcements (72),pass,2026-07-16
+TC-0073,Connectivity-Gateway,Verify Wi-Fi portal login (73),pass,2026-11-14
+TC-0074,Crew-Tablet,Verify seat pairing (74),pass,2026-10-16
+TC-0075,IFE-Seatback,Verify Wi-Fi portal login (75),pass,2026-10-30
+TC-0076,Connectivity-Gateway,Verify parental controls (76),pass,2026-08-02
+TC-0077,Crew-Tablet,Verify moving map (77),pass,2026-09-24
+TC-0078,IFE-Seatback,Verify audio language selection (78),pass,2026-10-24
+TC-0079,Connectivity-Gateway,Verify parental controls (79),pass,2026-08-26
+TC-0080,Crew-Tablet,Verify moving map (80),pass,2026-08-23
+TC-0081,IFE-Seatback,Verify Wi-Fi portal login (81),pass,2026-08-30
+TC-0082,Connectivity-Gateway,Verify crew announcements (82),pass,2026-10-31
+TC-0083,Crew-Tablet,Verify parental controls (83),pass,2026-10-21
+TC-0084,IFE-Seatback,Verify parental controls (84),pass,2026-07-19
+TC-0085,Connectivity-Gateway,Verify seat pairing (85),pass,2026-09-13
+TC-0086,Crew-Tablet,Verify crew announcements (86),pass,2026-08-01
+TC-0087,IFE-Seatback,Verify seat pairing (87),pass,2026-10-04
+TC-0088,Connectivity-Gateway,Verify Wi-Fi portal login (88),pass,2026-06-24
+TC-0089,Crew-Tablet,Verify Wi-Fi portal login (89),pass,2026-08-02
+TC-0090,IFE-Seatback,Verify seat pairing (90),pass,2026-09-03
+TC-0091,Connectivity-Gateway,Verify seat pairing (91),pass,2026-08-28
+TC-0092,Crew-Tablet,Verify Wi-Fi portal login (92),pass,2026-10-19
+TC-0093,IFE-Seatback,Verify Wi-Fi portal login (93),pass,2026-09-25
+TC-0094,Connectivity-Gateway,Verify parental controls (94),pass,2026-07-30
+TC-0095,Crew-Tablet,Verify parental controls (95),pass,2026-08-20
+TC-0096,IFE-Seatback,Verify moving map (96),pass,2026-07-18
+TC-0097,Connectivity-Gateway,Verify Wi-Fi portal login (97),pass,2026-10-02
+TC-0098,Crew-Tablet,Verify audio language selection (98),pass,2026-10-13
+TC-0099,IFE-Seatback,Verify moving map (99),pass,2026-06-26
+TC-0100,Connectivity-Gateway,Verify moving map (100),pass,2026-09-01
+TC-0101,Crew-Tablet,Verify moving map (101),pass,2026-10-15
+TC-0102,IFE-Seatback,Verify audio language selection (102),pass,2026-06-14
+TC-0103,Connectivity-Gateway,Verify crew announcements (103),pass,2026-07-03
+TC-0104,Crew-Tablet,Verify parental controls (104),pass,2026-10-04
+TC-0105,IFE-Seatback,Verify Wi-Fi portal login (105),pass,2026-10-25
+TC-0106,Connectivity-Gateway,Verify Wi-Fi portal login (106),pass,2026-09-21
+TC-0107,Crew-Tablet,Verify Wi-Fi portal login (107),pass,2026-06-14
+TC-0108,IFE-Seatback,Verify parental controls (108),pass,2026-10-01
+TC-0109,Connectivity-Gateway,Verify seat pairing (109),pass,2026-09-11
+TC-0110,Crew-Tablet,Verify crew announcements (110),fail,2026-11-09
+TC-0111,IFE-Seatback,Verify audio language selection (111),fail,2026-07-09
+TC-0112,Connectivity-Gateway,Verify moving map (112),pass,2026-06-22
+TC-0113,Crew-Tablet,Verify audio language selection (113),pass,2026-09-15
+TC-0114,IFE-Seatback,Verify moving map (114),pass,2026-11-06
+TC-0115,Connectivity-Gateway,Verify seat pairing (115),pass,2026-09-06
+TC-0116,Crew-Tablet,Verify audio language selection (116),pass,2026-08-16
+TC-0117,IFE-Seatback,Verify audio language selection (117),pass,2026-08-18
+TC-0118,Connectivity-Gateway,Verify crew announcements (118),pass,2026-11-04
+TC-0119,Crew-Tablet,Verify crew announcements (119),fail,2026-07-24
+TC-0120,IFE-Seatback,Verify parental controls (120),pass,2026-11-17
+TC-0121,Connectivity-Gateway,Verify audio language selection (121),pass,2026-07-15
+TC-0122,Crew-Tablet,Verify seat pairing (122),fail,2026-06-01
+TC-0123,IFE-Seatback,Verify seat pairing (123),pass,2026-10-31
+TC-0124,Connectivity-Gateway,Verify Wi-Fi portal login (124),pass,2026-07-30
+TC-0125,Crew-Tablet,Verify parental controls (125),pass,2026-09-25
+TC-0126,IFE-Seatback,Verify crew announcements (126),pass,2026-08-07
+TC-0127,Connectivity-Gateway,Verify seat pairing (127),pass,2026-07-21
+TC-0128,Crew-Tablet,Verify crew announcements (128),pass,2026-07-28
+TC-0129,IFE-Seatback,Verify moving map (129),pass,2026-08-08
+TC-0130,Connectivity-Gateway,Verify Wi-Fi portal login (130),fail,2026-07-13
+TC-0131,Crew-Tablet,Verify Wi-Fi portal login (131),pass,2026-10-24
+TC-0132,IFE-Seatback,Verify crew announcements (132),pass,2026-09-28
+TC-0133,Connectivity-Gateway,Verify Wi-Fi portal login (133),pass,2026-09-12
+TC-0134,Crew-Tablet,Verify seat pairing (134),pass,2026-10-05
+TC-0135,IFE-Seatback,Verify seat pairing (135),fail,2026-06-11
+TC-0136,Connectivity-Gateway,Verify Wi-Fi portal login (136),pass,2026-11-02
+TC-0137,Crew-Tablet,Verify moving map (137),not_run,
+TC-0138,IFE-Seatback,Verify audio language selection (138),pass,2026-10-26
+TC-0139,Connectivity-Gateway,Verify Wi-Fi portal login (139),pass,2026-11-20
+TC-0140,Crew-Tablet,Verify seat pairing (140),pass,2026-07-15
+TC-0141,IFE-Seatback,Verify Wi-Fi portal login (141),pass,2026-09-22
+TC-0142,Connectivity-Gateway,Verify seat pairing (142),pass,2026-10-28
+TC-0143,Crew-Tablet,Verify parental controls (143),pass,2026-10-04
+TC-0144,IFE-Seatback,Verify Wi-Fi portal login (144),pass,2026-09-13
+TC-0145,Connectivity-Gateway,Verify moving map (145),pass,2026-06-27
+TC-0146,Crew-Tablet,Verify Wi-Fi portal login (146),pass,2026-10-05
+TC-0147,IFE-Seatback,Verify audio language selection (147),pass,2026-09-11
+TC-0148,Connectivity-Gateway,Verify parental controls (148),not_run,
+TC-0149,Crew-Tablet,Verify parental controls (149),pass,2026-08-22
+TC-0150,IFE-Seatback,Verify audio language selection (150),pass,2026-09-12
+TC-0151,Connectivity-Gateway,Verify crew announcements (151),pass,2026-06-01
+TC-0152,Crew-Tablet,Verify seat pairing (152),pass,2026-09-27
+TC-0153,IFE-Seatback,Verify Wi-Fi portal login (153),fail,2026-10-11
+TC-0154,Connectivity-Gateway,Verify crew announcements (154),pass,2026-10-06
+TC-0155,Crew-Tablet,Verify moving map (155),pass,2026-06-14
+TC-0156,IFE-Seatback,Verify Wi-Fi portal login (156),pass,2026-07-04
+TC-0157,Connectivity-Gateway,Verify parental controls (157),pass,2026-10-03
+TC-0158,Crew-Tablet,Verify crew announcements (158),not_run,
+TC-0159,IFE-Seatback,Verify crew announcements (159),pass,2026-08-01
+TC-0160,Connectivity-Gateway,Verify parental controls (160),pass,2026-10-20
+TC-0161,Crew-Tablet,Verify moving map (161),pass,2026-06-24
+TC-0162,IFE-Seatback,Verify seat pairing (162),pass,2026-06-30
+TC-0163,Connectivity-Gateway,Verify moving map (163),pass,2026-11-13
+TC-0164,Crew-Tablet,Verify audio language selection (164),pass,2026-08-14
+TC-0165,IFE-Seatback,Verify seat pairing (165),pass,2026-09-15
+TC-0166,Connectivity-Gateway,Verify seat pairing (166),pass,2026-08-02
+TC-0167,Crew-Tablet,Verify moving map (167),pass,2026-09-07
+TC-0168,IFE-Seatback,Verify crew announcements (168),pass,2026-10-09
+TC-0169,Connectivity-Gateway,Verify Wi-Fi portal login (169),pass,2026-06-18
+TC-0170,Crew-Tablet,Verify Wi-Fi portal login (170),pass,2026-09-15
+TC-0171,IFE-Seatback,Verify Wi-Fi portal login (171),pass,2026-10-08
+TC-0172,Connectivity-Gateway,Verify crew announcements (172),pass,2026-08-12
+TC-0173,Crew-Tablet,Verify audio language selection (173),pass,2026-10-29
+TC-0174,IFE-Seatback,Verify moving map (174),pass,2026-10-04
+TC-0175,Connectivity-Gateway,Verify Wi-Fi portal login (175),pass,2026-10-02
+TC-0176,Crew-Tablet,Verify seat pairing (176),pass,2026-10-18
+TC-0177,IFE-Seatback,Verify moving map (177),pass,2026-08-22
+TC-0178,Connectivity-Gateway,Verify audio language selection (178),pass,2026-08-01
+TC-0179,Crew-Tablet,Verify parental controls (179),pass,2026-09-14
+TC-0180,IFE-Seatback,Verify crew announcements (180),pass,2026-09-30
+TC-0181,Connectivity-Gateway,Verify seat pairing (181),pass,2026-09-06
+TC-0182,Crew-Tablet,Verify moving map (182),pass,2026-11-14
+TC-0183,IFE-Seatback,Verify moving map (183),pass,2026-06-10
+TC-0184,Connectivity-Gateway,Verify Wi-Fi portal login (184),pass,2026-10-30
+TC-0185,Crew-Tablet,Verify parental controls (185),pass,2026-09-21
+TC-0186,IFE-Seatback,Verify parental controls (186),pass,2026-09-25
+TC-0187,Connectivity-Gateway,Verify crew announcements (187),pass,2026-09-13
+TC-0188,Crew-Tablet,Verify seat pairing (188),pass,2026-06-20
+TC-0189,IFE-Seatback,Verify Wi-Fi portal login (189),pass,2026-08-07
+TC-0190,Connectivity-Gateway,Verify crew announcements (190),pass,2026-09-10
+TC-0191,Crew-Tablet,Verify crew announcements (191),fail,2026-08-24
+TC-0192,IFE-Seatback,Verify Wi-Fi portal login (192),pass,2026-09-06
+TC-0193,Connectivity-Gateway,Verify audio language selection (193),pass,2026-10-03
+TC-0194,Crew-Tablet,Verify parental controls (194),not_run,
+TC-0195,IFE-Seatback,Verify moving map (195),pass,2026-08-13
+TC-0196,Connectivity-Gateway,Verify parental controls (196),pass,2026-09-20
+TC-0197,Crew-Tablet,Verify seat pairing (197),pass,2026-06-26
+TC-0198,IFE-Seatback,Verify parental controls (198),pass,2026-08-16
+TC-0199,Connectivity-Gateway,Verify parental controls (199),not_run,
+TC-0200,Crew-Tablet,Verify seat pairing (200),pass,2026-09-04
+TC-0201,IFE-Seatback,Verify seat pairing (201),pass,2026-10-14
+TC-0202,Connectivity-Gateway,Verify moving map (202),pass,2026-07-17
+TC-0203,Crew-Tablet,Verify seat pairing (203),pass,2026-11-04
+TC-0204,IFE-Seatback,Verify seat pairing (204),pass,2026-08-01
+TC-0205,Connectivity-Gateway,Verify moving map (205),pass,2026-07-07
+TC-0206,Crew-Tablet,Verify seat pairing (206),pass,2026-08-05
+TC-0207,IFE-Seatback,Verify seat pairing (207),pass,2026-06-03
+TC-0208,Connectivity-Gateway,Verify audio language selection (208),pass,2026-11-21
+TC-0209,Crew-Tablet,Verify Wi-Fi portal login (209),pass,2026-09-22
+TC-0210,IFE-Seatback,Verify crew announcements (210),pass,2026-08-16
+TC-0211,Connectivity-Gateway,Verify seat pairing (211),pass,2026-08-04
+TC-0212,Crew-Tablet,Verify seat pairing (212),pass,2026-07-21
+TC-0213,IFE-Seatback,Verify moving map (213),pass,2026-06-28
+TC-0214,Connectivity-Gateway,Verify audio language selection (214),pass,2026-08-31
+TC-0215,Crew-Tablet,Verify parental controls (215),pass,2026-08-15
+TC-0216,IFE-Seatback,Verify seat pairing (216),pass,2026-11-16
+TC-0217,Connectivity-Gateway,Verify crew announcements (217),pass,2026-10-23
+TC-0218,Crew-Tablet,Verify audio language selection (218),pass,2026-06-13
+TC-0219,IFE-Seatback,Verify moving map (219),pass,2026-08-13
+TC-0220,Connectivity-Gateway,Verify moving map (220),pass,2026-08-30
+TC-0221,Crew-Tablet,Verify Wi-Fi portal login (221),pass,2026-11-06
+TC-0222,IFE-Seatback,Verify crew announcements (222),pass,2026-11-16
+TC-0223,Connectivity-Gateway,Verify parental controls (223),pass,2026-11-08
+TC-0224,Crew-Tablet,Verify parental controls (224),pass,2026-11-13
+TC-0225,IFE-Seatback,Verify parental controls (225),pass,2026-09-21
+TC-0226,Connectivity-Gateway,Verify parental controls (226),pass,2026-07-04
+TC-0227,Crew-Tablet,Verify crew announcements (227),pass,2026-08-23
+TC-0228,IFE-Seatback,Verify moving map (228),pass,2026-07-22
+TC-0229,Connectivity-Gateway,Verify audio language selection (229),pass,2026-09-02
+TC-0230,Crew-Tablet,Verify moving map (230),pass,2026-08-09
+TC-0231,IFE-Seatback,Verify Wi-Fi portal login (231),pass,2026-10-02
+TC-0232,Connectivity-Gateway,Verify parental controls (232),pass,2026-08-26
+TC-0233,Crew-Tablet,Verify moving map (233),pass,2026-06-20
+TC-0234,IFE-Seatback,Verify crew announcements (234),pass,2026-07-28
+TC-0235,Connectivity-Gateway,Verify audio language selection (235),pass,2026-09-10
+TC-0236,Crew-Tablet,Verify parental controls (236),pass,2026-09-10
+TC-0237,IFE-Seatback,Verify seat pairing (237),pass,2026-07-02
+TC-0238,Connectivity-Gateway,Verify Wi-Fi portal login (238),pass,2026-11-20
+TC-0239,Crew-Tablet,Verify Wi-Fi portal login (239),pass,2026-11-11
+TC-0240,IFE-Seatback,Verify seat pairing (240),fail,2026-07-30
+TC-0241,Connectivity-Gateway,Verify audio language selection (241),not_run,
+TC-0242,Crew-Tablet,Verify moving map (242),pass,2026-11-04
+TC-0243,IFE-Seatback,Verify seat pairing (243),pass,2026-11-10
+TC-0244,Connectivity-Gateway,Verify crew announcements (244),pass,2026-08-17
+TC-0245,Crew-Tablet,Verify parental controls (245),pass,2026-07-06
+TC-0246,IFE-Seatback,Verify seat pairing (246),pass,2026-08-17
+TC-0247,Connectivity-Gateway,Verify audio language selection (247),pass,2026-07-31
+TC-0248,Crew-Tablet,Verify Wi-Fi portal login (248),pass,2026-09-25
+TC-0249,IFE-Seatback,Verify seat pairing (249),pass,2026-10-17
+TC-0250,Connectivity-Gateway,Verify seat pairing (250),pass,2026-07-10
+TC-0251,Crew-Tablet,Verify audio language selection (251),pass,2026-10-04
+TC-0252,IFE-Seatback,Verify parental controls (252),pass,2026-08-11
+TC-0253,Connectivity-Gateway,Verify seat pairing (253),pass,2026-07-26
+TC-0254,Crew-Tablet,Verify Wi-Fi portal login (254),pass,2026-07-31
+TC-0255,IFE-Seatback,Verify audio language selection (255),fail,2026-09-03
+TC-0256,Connectivity-Gateway,Verify Wi-Fi portal login (256),pass,2026-11-13
+TC-0257,Crew-Tablet,Verify moving map (257),fail,2026-08-10
+TC-0258,IFE-Seatback,Verify parental controls (258),pass,2026-09-25
+TC-0259,Connectivity-Gateway,Verify crew announcements (259),pass,2026-11-12
+TC-0260,Crew-Tablet,Verify parental controls (260),pass,2026-06-06
+TC-0261,IFE-Seatback,Verify moving map (261),pass,2026-08-02
+TC-0262,Connectivity-Gateway,Verify parental controls (262),pass,2026-07-23
+TC-0263,Crew-Tablet,Verify moving map (263),pass,2026-10-20
+TC-0264,IFE-Seatback,Verify Wi-Fi portal login (264),pass,2026-07-30
+TC-0265,Connectivity-Gateway,Verify parental controls (265),pass,2026-10-31
+TC-0266,Crew-Tablet,Verify moving map (266),pass,2026-07-08
+TC-0267,IFE-Seatback,Verify parental controls (267),pass,2026-07-15
+TC-0268,Connectivity-Gateway,Verify moving map (268),pass,2026-06-07
+TC-0269,Crew-Tablet,Verify moving map (269),not_run,
+TC-0270,IFE-Seatback,Verify moving map (270),pass,2026-06-05
+TC-0271,Connectivity-Gateway,Verify crew announcements (271),pass,2026-07-03
+TC-0272,Crew-Tablet,Verify crew announcements (272),pass,2026-06-30
+TC-0273,IFE-Seatback,Verify Wi-Fi portal login (273),fail,2026-09-23
+TC-0274,Connectivity-Gateway,Verify seat pairing (274),pass,2026-06-28
+TC-0275,Crew-Tablet,Verify parental controls (275),pass,2026-11-05
+TC-0276,IFE-Seatback,Verify audio language selection (276),pass,2026-11-16
+TC-0277,Connectivity-Gateway,Verify parental controls (277),pass,2026-11-12
+TC-0278,Crew-Tablet,Verify seat pairing (278),fail,2026-10-01
+TC-0279,IFE-Seatback,Verify seat pairing (279),pass,2026-06-28
+TC-0280,Connectivity-Gateway,Verify parental controls (280),pass,2026-09-22
+TC-0281,Crew-Tablet,Verify audio language selection (281),pass,2026-08-22
+TC-0282,IFE-Seatback,Verify Wi-Fi portal login (282),pass,2026-07-03
+TC-0283,Connectivity-Gateway,Verify audio language selection (283),pass,2026-10-28
+TC-0284,Crew-Tablet,Verify audio language selection (284),pass,2026-09-06
+TC-0285,IFE-Seatback,Verify audio language selection (285),pass,2026-09-25
+TC-0286,Connectivity-Gateway,Verify crew announcements (286),pass,2026-06-26
+TC-0287,Crew-Tablet,Verify crew announcements (287),pass,2026-11-15
+TC-0288,IFE-Seatback,Verify crew announcements (288),pass,2026-10-20
+TC-0289,Connectivity-Gateway,Verify seat pairing (289),pass,2026-09-19
+TC-0290,Crew-Tablet,Verify Wi-Fi portal login (290),pass,2026-09-14
+TC-0291,IFE-Seatback,Verify seat pairing (291),pass,2026-09-11
+TC-0292,Connectivity-Gateway,Verify seat pairing (292),pass,2026-08-20
+TC-0293,Crew-Tablet,Verify Wi-Fi portal login (293),pass,2026-08-05
+TC-0294,IFE-Seatback,Verify parental controls (294),pass,2026-09-30
+TC-0295,Connectivity-Gateway,Verify parental controls (295),fail,2026-06-22
+TC-0296,Crew-Tablet,Verify moving map (296),pass,2026-09-04
+TC-0297,IFE-Seatback,Verify audio language selection (297),pass,2026-10-29
+TC-0298,Connectivity-Gateway,Verify parental controls (298),pass,2026-11-19
+TC-0299,Crew-Tablet,Verify seat pairing (299),pass,2026-11-18
+TC-0300,IFE-Seatback,Verify Wi-Fi portal login (300),pass,2026-06-14
+TC-0301,Connectivity-Gateway,Verify parental controls (301),pass,2026-08-30
+TC-0302,Crew-Tablet,Verify moving map (302),pass,2026-07-25
+TC-0303,IFE-Seatback,Verify parental controls (303),pass,2026-07-28
+TC-0304,Connectivity-Gateway,Verify Wi-Fi portal login (304),pass,2026-10-21
+TC-0305,Crew-Tablet,Verify audio language selection (305),pass,2026-08-11
+TC-0306,IFE-Seatback,Verify audio language selection (306),pass,2026-09-18
+TC-0307,Connectivity-Gateway,Verify audio language selection (307),pass,2026-11-07
+TC-0308,Crew-Tablet,Verify parental controls (308),pass,2026-10-21
+TC-0309,IFE-Seatback,Verify crew announcements (309),pass,2026-11-16
+TC-0310,Connectivity-Gateway,Verify Wi-Fi portal login (310),pass,2026-07-17
+TC-0311,Crew-Tablet,Verify Wi-Fi portal login (311),pass,2026-08-19
+TC-0312,IFE-Seatback,Verify moving map (312),pass,2026-07-17
+TC-0313,Connectivity-Gateway,Verify parental controls (313),pass,2026-09-11
+TC-0314,Crew-Tablet,Verify parental controls (314),pass,2026-11-10
+TC-0315,IFE-Seatback,Verify moving map (315),fail,2026-10-14
+TC-0316,Connectivity-Gateway,Verify Wi-Fi portal login (316),pass,2026-09-25
+TC-0317,Crew-Tablet,Verify crew announcements (317),pass,2026-08-19
+TC-0318,IFE-Seatback,Verify audio language selection (318),pass,2026-10-24
+TC-0319,Connectivity-Gateway,Verify moving map (319),fail,2026-06-14
+TC-0320,Crew-Tablet,Verify parental controls (320),pass,2026-11-06
+TC-0321,IFE-Seatback,Verify seat pairing (321),pass,2026-08-09
+TC-0322,Connectivity-Gateway,Verify audio language selection (322),pass,2026-10-03
+TC-0323,Crew-Tablet,Verify moving map (323),pass,2026-08-09
+TC-0324,IFE-Seatback,Verify Wi-Fi portal login (324),pass,2026-06-30
+TC-0325,Connectivity-Gateway,Verify crew announcements (325),pass,2026-08-12
+TC-0326,Crew-Tablet,Verify audio language selection (326),pass,2026-10-03
+TC-0327,IFE-Seatback,Verify moving map (327),pass,2026-06-12
+TC-0328,Connectivity-Gateway,Verify parental controls (328),pass,2026-11-01
+TC-0329,Crew-Tablet,Verify Wi-Fi portal login (329),not_run,
+TC-0330,IFE-Seatback,Verify Wi-Fi portal login (330),pass,2026-07-06
+TC-0331,Connectivity-Gateway,Verify parental controls (331),pass,2026-07-01
+TC-0332,Crew-Tablet,Verify moving map (332),pass,2026-09-19
+TC-0333,IFE-Seatback,Verify crew announcements (333),pass,2026-10-15
+TC-0334,Connectivity-Gateway,Verify crew announcements (334),pass,2026-10-22
+TC-0335,Crew-Tablet,Verify seat pairing (335),pass,2026-06-19
+TC-0336,IFE-Seatback,Verify seat pairing (336),pass,2026-06-11
+TC-0337,Connectivity-Gateway,Verify parental controls (337),not_run,
+TC-0338,Crew-Tablet,Verify seat pairing (338),pass,2026-10-26
+TC-0339,IFE-Seatback,Verify seat pairing (339),pass,2026-11-11
+TC-0340,Connectivity-Gateway,Verify parental controls (340),pass,2026-09-12
+TC-0341,Crew-Tablet,Verify audio language selection (341),pass,2026-07-14
+TC-0342,IFE-Seatback,Verify parental controls (342),pass,2026-09-01
+TC-0343,Connectivity-Gateway,Verify moving map (343),pass,2026-06-28
+TC-0344,Crew-Tablet,Verify audio language selection (344),pass,2026-09-11
+TC-0345,IFE-Seatback,Verify crew announcements (345),fail,2026-08-19
+TC-0346,Connectivity-Gateway,Verify moving map (346),pass,2026-08-25
+TC-0347,Crew-Tablet,Verify parental controls (347),fail,2026-11-10
+TC-0348,IFE-Seatback,Verify Wi-Fi portal login (348),pass,2026-07-20
+TC-0349,Connectivity-Gateway,Verify moving map (349),pass,2026-11-13
+TC-0350,Crew-Tablet,Verify Wi-Fi portal login (350),pass,2026-07-08
+TC-0351,IFE-Seatback,Verify moving map (351),pass,2026-11-02
+TC-0352,Connectivity-Gateway,Verify parental controls (352),pass,2026-11-15
+TC-0353,Crew-Tablet,Verify seat pairing (353),pass,2026-11-08
+TC-0354,IFE-Seatback,Verify audio language selection (354),pass,2026-10-23
+TC-0355,Connectivity-Gateway,Verify crew announcements (355),pass,2026-10-23
+TC-0356,Crew-Tablet,Verify Wi-Fi portal login (356),pass,2026-11-07
+TC-0357,IFE-Seatback,Verify Wi-Fi portal login (357),pass,2026-11-08
+TC-0358,Connectivity-Gateway,Verify seat pairing (358),pass,2026-06-18
+TC-0359,Crew-Tablet,Verify Wi-Fi portal login (359),pass,2026-08-17
+TC-0360,IFE-Seatback,Verify audio language selection (360),pass,2026-08-30
+TC-0361,Connectivity-Gateway,Verify seat pairing (361),fail,2026-09-27
+TC-0362,Crew-Tablet,Verify Wi-Fi portal login (362),not_run,
+TC-0363,IFE-Seatback,Verify crew announcements (363),pass,2026-06-20
+TC-0364,Connectivity-Gateway,Verify audio language selection (364),pass,2026-06-24
+TC-0365,Crew-Tablet,Verify seat pairing (365),pass,2026-09-07
+TC-0366,IFE-Seatback,Verify seat pairing (366),pass,2026-06-11
+TC-0367,Connectivity-Gateway,Verify crew announcements (367),pass,2026-10-25
+TC-0368,Crew-Tablet,Verify seat pairing (368),pass,2026-11-02
+TC-0369,IFE-Seatback,Verify seat pairing (369),pass,2026-06-16
+TC-0370,Connectivity-Gateway,Verify crew announcements (370),fail,2026-08-27
+TC-0371,Crew-Tablet,Verify moving map (371),fail,2026-11-13
+TC-0372,IFE-Seatback,Verify crew announcements (372),not_run,
+TC-0373,Connectivity-Gateway,Verify audio language selection (373),pass,2026-09-21
+TC-0374,Crew-Tablet,Verify Wi-Fi portal login (374),pass,2026-07-11
+TC-0375,IFE-Seatback,Verify seat pairing (375),pass,2026-08-12
+TC-0376,Connectivity-Gateway,Verify crew announcements (376),pass,2026-08-26
+TC-0377,Crew-Tablet,Verify crew announcements (377),pass,2026-11-09
+TC-0378,IFE-Seatback,Verify parental controls (378),pass,2026-08-24
+TC-0379,Connectivity-Gateway,Verify Wi-Fi portal login (379),pass,2026-09-07
+TC-0380,Crew-Tablet,Verify audio language selection (380),pass,2026-11-16
+TC-0381,IFE-Seatback,Verify parental controls (381),pass,2026-08-25
+TC-0382,Connectivity-Gateway,Verify Wi-Fi portal login (382),pass,2026-07-07
+TC-0383,Crew-Tablet,Verify crew announcements (383),pass,2026-11-15
+TC-0384,IFE-Seatback,Verify audio language selection (384),pass,2026-07-04
+TC-0385,Connectivity-Gateway,Verify Wi-Fi portal login (385),pass,2026-06-22
+TC-0386,Crew-Tablet,Verify Wi-Fi portal login (386),pass,2026-11-12
+TC-0387,IFE-Seatback,Verify crew announcements (387),pass,2026-11-19
+TC-0388,Connectivity-Gateway,Verify parental controls (388),pass,2026-10-13
+TC-0389,Crew-Tablet,Verify audio language selection (389),pass,2026-09-17
+TC-0390,IFE-Seatback,Verify Wi-Fi portal login (390),pass,2026-09-01
+TC-0391,Connectivity-Gateway,Verify Wi-Fi portal login (391),pass,2026-07-25
+TC-0392,Crew-Tablet,Verify moving map (392),pass,2026-10-03
+TC-0393,IFE-Seatback,Verify moving map (393),pass,2026-07-06
+TC-0394,Connectivity-Gateway,Verify audio language selection (394),fail,2026-06-26
+TC-0395,Crew-Tablet,Verify parental controls (395),pass,2026-10-13
+TC-0396,IFE-Seatback,Verify moving map (396),pass,2026-11-06
+TC-0397,Connectivity-Gateway,Verify moving map (397),pass,2026-07-10
+TC-0398,Crew-Tablet,Verify moving map (398),pass,2026-11-07
+TC-0399,IFE-Seatback,Verify seat pairing (399),pass,2026-06-12
+TC-0400,Connectivity-Gateway,Verify seat pairing (400),pass,2026-07-31
+TC-0401,Crew-Tablet,Verify moving map (401),pass,2026-09-23
+TC-0402,IFE-Seatback,Verify seat pairing (402),pass,2026-08-19
+TC-0403,Connectivity-Gateway,Verify Wi-Fi portal login (403),pass,2026-07-20
+TC-0404,Crew-Tablet,Verify seat pairing (404),pass,2026-10-25
+TC-0405,IFE-Seatback,Verify seat pairing (405),pass,2026-08-12
+TC-0406,Connectivity-Gateway,Verify moving map (406),pass,2026-09-16
+TC-0407,Crew-Tablet,Verify moving map (407),pass,2026-11-02
+TC-0408,IFE-Seatback,Verify crew announcements (408),pass,2026-06-14
+TC-0409,Connectivity-Gateway,Verify audio language selection (409),pass,2026-09-04
+TC-0410,Crew-Tablet,Verify parental controls (410),pass,2026-10-11
+TC-0411,IFE-Seatback,Verify Wi-Fi portal login (411),pass,2026-07-12
+TC-0412,Connectivity-Gateway,Verify moving map (412),pass,2026-10-10
+TC-0413,Crew-Tablet,Verify moving map (413),pass,2026-06-24
+TC-0414,IFE-Seatback,Verify parental controls (414),pass,2026-08-29
+TC-0415,Connectivity-Gateway,Verify audio language selection (415),pass,2026-09-10
+TC-0416,Crew-Tablet,Verify parental controls (416),pass,2026-09-07
+TC-0417,IFE-Seatback,Verify Wi-Fi portal login (417),pass,2026-06-08
+TC-0418,Connectivity-Gateway,Verify Wi-Fi portal login (418),pass,2026-11-14
+TC-0419,Crew-Tablet,Verify parental controls (419),pass,2026-07-06
+TC-0420,IFE-Seatback,Verify crew announcements (420),pass,2026-09-29
+TC-0421,Connectivity-Gateway,Verify seat pairing (421),pass,2026-09-29
+TC-0422,Crew-Tablet,Verify parental controls (422),pass,2026-06-21
+TC-0423,IFE-Seatback,Verify audio language selection (423),pass,2026-07-09
+TC-0424,Connectivity-Gateway,Verify audio language selection (424),pass,2026-11-03
+TC-0425,Crew-Tablet,Verify moving map (425),pass,2026-08-13
+TC-0426,IFE-Seatback,Verify moving map (426),pass,2026-06-13
+TC-0427,Connectivity-Gateway,Verify seat pairing (427),pass,2026-11-07
+TC-0428,Crew-Tablet,Verify audio language selection (428),fail,2026-10-06
+TC-0429,IFE-Seatback,Verify audio language selection (429),pass,2026-11-09
+TC-0430,Connectivity-Gateway,Verify Wi-Fi portal login (430),pass,2026-07-07
+TC-0431,Crew-Tablet,Verify Wi-Fi portal login (431),pass,2026-11-05
+TC-0432,IFE-Seatback,Verify moving map (432),pass,2026-09-15
+TC-0433,Connectivity-Gateway,Verify audio language selection (433),pass,2026-06-22
+TC-0434,Crew-Tablet,Verify audio language selection (434),pass,2026-06-18
+TC-0435,IFE-Seatback,Verify audio language selection (435),pass,2026-10-08
+TC-0436,Connectivity-Gateway,Verify seat pairing (436),not_run,
+TC-0437,Crew-Tablet,Verify seat pairing (437),not_run,
+TC-0438,IFE-Seatback,Verify crew announcements (438),pass,2026-08-04
+TC-0439,Connectivity-Gateway,Verify parental controls (439),not_run,
+TC-0440,Crew-Tablet,Verify crew announcements (440),pass,2026-11-16
+TC-0441,IFE-Seatback,Verify crew announcements (441),fail,2026-10-27
+TC-0442,Connectivity-Gateway,Verify parental controls (442),pass,2026-07-05
+TC-0443,Crew-Tablet,Verify crew announcements (443),pass,2026-08-26
+TC-0444,IFE-Seatback,Verify crew announcements (444),pass,2026-09-27
+TC-0445,Connectivity-Gateway,Verify moving map (445),pass,2026-07-17
+TC-0446,Crew-Tablet,Verify parental controls (446),fail,2026-09-26
+TC-0447,IFE-Seatback,Verify moving map (447),pass,2026-06-12
+TC-0448,Connectivity-Gateway,Verify Wi-Fi portal login (448),pass,2026-08-20
+TC-0449,Crew-Tablet,Verify seat pairing (449),pass,2026-10-18
+TC-0450,IFE-Seatback,Verify moving map (450),pass,2026-11-13

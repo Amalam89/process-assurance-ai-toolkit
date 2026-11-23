@@ -1,0 +1,266 @@
+defect_id,project,component,severity,opened,closed,description,root_cause,linked_req_id
+DEF-0001,Crew-Tablet,Crew Panel,Minor,2026-10-15,2026-11-06,No regression test for Media Player after the last change. Also noted: network gateway and seat display disagree on the message format.,Test gap,REQ-0269
+DEF-0002,Connectivity-Gateway,Crew Panel,Major,2026-04-27,2026-06-19,Customer changed the crew announcements requirement after baseline; software follows the old spec.,Requirements,
+DEF-0003,Connectivity-Gateway,Moving Map,Minor,2026-07-27,2026-09-13,Content Loader sends Wi-Fi portal login events that Moving Map does not recognize.,Integration/Interface,REQ-0142
+DEF-0004,IFE-Seatback,Seat Display,Minor,2026-08-21,2026-08-31,Media Player architecture does not handle low bandwidth.,Design,REQ-0060
+DEF-0005,IFE-Seatback,Crew Panel,Minor,2026-08-11,,Seat Display design assumes a single user session; fails with moving map.,Design,REQ-0030
+DEF-0006,IFE-Seatback,Seat Display,Major,2026-07-16,2026-07-22,Scenario with rapid channel switching was not covered by the test suite and escaped to the field.,Test gap,REQ-0036
+DEF-0007,IFE-Seatback,Network Gateway,Minor,2026-05-08,2026-06-16,No regression test for Content Loader after the last change.,Test gap,REQ-0282
+DEF-0008,IFE-Seatback,Media Player,Major,2026-01-17,2026-02-15,Work instruction for loading Wi-Fi portal login content is out of date.,Process/Documentation,REQ-0285
+DEF-0009,IFE-Seatback,Content Loader,Minor,2026-02-14,2026-03-04,Seat Display and Network Gateway disagree on the message format.,Integration/Interface,REQ-0201
+DEF-0010,Connectivity-Gateway,Media Player,Minor,2026-06-23,,Off-by-one error in Crew Panel list index skips the last item.,Code/Logic,REQ-0049
+DEF-0011,Connectivity-Gateway,Content Loader,Minor,2026-04-11,,State machine in Network Gateway can reach an invalid state during a seat power cycle. Also noted: off-by-one error in moving map list index skips the last item.,Design,REQ-0178
+DEF-0012,IFE-Seatback,Seat Display,Minor,2026-08-02,2026-09-23,Wrong unit conversion in Network Gateway shows incorrect values.,Code/Logic,REQ-0273
+DEF-0013,IFE-Seatback,Network Gateway,Major,2026-02-19,,Build pulled an outdated library version for Network Gateway.,Configuration/Build,REQ-0069
+DEF-0014,Connectivity-Gateway,Seat Display,Critical,2026-06-20,2026-07-28,Requirement for parental controls was ambiguous; build did not match the airline's expectation.,Requirements,REQ-0049
+DEF-0015,Connectivity-Gateway,Media Player,Minor,2026-05-10,2026-06-23,State machine in Media Player can reach an invalid state during a seat power cycle.,Design,REQ-0049
+DEF-0016,Connectivity-Gateway,Media Player,Major,2026-01-02,2026-02-03,Two requirements for seat pairing conflict on timeout behavior.,Requirements,REQ-0136
+DEF-0017,IFE-Seatback,Seat Display,Critical,2026-03-21,2026-05-19,Design of Crew Panel did not account for a flight longer than 14 hours.,Design,REQ-0036
+DEF-0018,IFE-Seatback,Moving Map,Major,2026-06-03,2026-08-01,Null reference in Content Loader when a mid-flight content update occurs.,Code/Logic,REQ-0219
+DEF-0019,Connectivity-Gateway,Moving Map,Major,2026-03-19,2026-04-11,Test case for audio language selection checked the wrong expected value and passed anyway.,Test gap,REQ-0061
+DEF-0020,Crew-Tablet,Crew Panel,Critical,2026-03-04,2026-04-28,"Spec for Wi-Fi portal login had no acceptance criteria, so behavior during a seat power cycle was undefined. Also noted: timeout calling the network gateway interface from crew panel.",Requirements,REQ-0137
+DEF-0021,Crew-Tablet,Content Loader,Minor,2026-01-12,2026-01-27,Supplier firmware for Content Loader delivered without a change log.,Supplier,REQ-0203
+DEF-0022,Connectivity-Gateway,Network Gateway,Minor,2026-09-11,2026-09-22,Race condition in Media Player threads during a mid-flight content update.,Code/Logic,
+DEF-0023,Crew-Tablet,Network Gateway,Minor,2026-05-06,,Two requirements for Wi-Fi portal login conflict on timeout behavior.,Requirements,REQ-0281
+DEF-0024,Crew-Tablet,Crew Panel,Minor,2026-07-08,2026-07-22,Vendor library in Seat Display fails its license check at boot.,Supplier,REQ-0050
+DEF-0025,IFE-Seatback,Content Loader,Minor,2026-10-26,,Seat Display architecture does not handle a mid-flight content update.,Design,REQ-0192
+DEF-0026,Crew-Tablet,Seat Display,Minor,2025-12-10,2026-01-02,Crew Panel architecture does not handle low bandwidth.,Design,REQ-0026
+DEF-0027,IFE-Seatback,Crew Panel,Minor,2025-11-01,2025-12-02,Off-by-one error in Content Loader list index skips the last item.,Code/Logic,
+DEF-0028,Crew-Tablet,Seat Display,Minor,2026-09-30,2026-10-17,Null reference in Network Gateway when rapid channel switching occurs.,Code/Logic,
+DEF-0029,Connectivity-Gateway,Media Player,Major,2026-01-22,2026-03-01,Crew Panel design assumes a single user session; fails with seat pairing. Also noted: build pulled an outdated library version for media player.,Design,REQ-0157
+DEF-0030,Crew-Tablet,Network Gateway,Major,2026-08-04,2026-08-25,Wrong configuration file deployed to Content Loader. Also noted: null reference in content loader when a language change occurs.,Configuration/Build,REQ-0185
+DEF-0031,IFE-Seatback,Media Player,Minor,2026-02-14,2026-03-07,Network Gateway architecture does not handle a flight longer than 14 hours.,Design,REQ-0249
+DEF-0032,IFE-Seatback,Network Gateway,Major,2026-05-09,,Scenario with rapid channel switching was not covered by the test suite and escaped to the field.,Test gap,REQ-0024
+DEF-0033,Crew-Tablet,Network Gateway,Minor,2026-10-08,2026-11-22,Moving Map design assumes a single user session; fails with audio language selection.,Design,REQ-0161
+DEF-0034,Crew-Tablet,Content Loader,Major,2026-07-02,2026-07-20,Supplier part in Crew Panel does not meet the agreed spec under a mid-flight content update.,Supplier,REQ-0260
+DEF-0035,IFE-Seatback,Content Loader,Major,2026-01-01,,Supplier firmware for Seat Display delivered without a change log.,Supplier,REQ-0168
+DEF-0036,Crew-Tablet,Network Gateway,Major,2026-01-15,,Media Player architecture does not handle a flight longer than 14 hours.,Design,REQ-0200
+DEF-0037,IFE-Seatback,Content Loader,Major,2026-10-25,,Off-by-one error in Seat Display list index skips the last item.,Code/Logic,REQ-0042
+DEF-0038,IFE-Seatback,Network Gateway,Minor,2026-03-27,,Test case for audio language selection checked the wrong expected value and passed anyway.,Test gap,REQ-0156
+DEF-0039,Crew-Tablet,Content Loader,Minor,2026-10-15,2026-10-20,State machine in Crew Panel can reach an invalid state during a language change.,Design,REQ-0143
+DEF-0040,Connectivity-Gateway,Crew Panel,Minor,2026-04-09,2026-05-13,"Spec for crew announcements had no acceptance criteria, so behavior during a flight longer than 14 hours was undefined.",Requirements,REQ-0280
+DEF-0041,Crew-Tablet,Content Loader,Minor,2025-12-16,2026-01-01,Race condition in Media Player threads during low bandwidth.,Code/Logic,REQ-0053
+DEF-0042,Crew-Tablet,Seat Display,Minor,2026-08-19,2026-09-03,API version mismatch between Media Player and the ground server.,Integration/Interface,REQ-0179
+DEF-0043,Crew-Tablet,Network Gateway,Minor,2026-01-03,2026-01-21,audio language selection was only tested on one seat model.,Test gap,REQ-0101
+DEF-0044,Crew-Tablet,Media Player,Major,2025-12-17,2026-01-13,API version mismatch between Seat Display and the ground server.,Integration/Interface,REQ-0008
+DEF-0045,Crew-Tablet,Crew Panel,Major,2025-11-05,2025-11-16,Peer review was skipped before merging the Seat Display change.,Process/Documentation,REQ-0107
+DEF-0046,Connectivity-Gateway,Content Loader,Major,2026-04-28,2026-05-14,Wrong unit conversion in Moving Map shows incorrect values.,Code/Logic,REQ-0142
+DEF-0047,Crew-Tablet,Media Player,Minor,2026-09-08,2026-10-24,Test case for Wi-Fi portal login checked the wrong expected value and passed anyway.,Test gap,REQ-0251
+DEF-0048,IFE-Seatback,Media Player,Minor,2026-07-23,2026-09-21,Wrong unit conversion in Crew Panel shows incorrect values.,Code/Logic,REQ-0114
+DEF-0049,Connectivity-Gateway,Moving Map,Minor,2026-05-27,2026-06-01,Design of Network Gateway did not account for a mid-flight content update.,Design,REQ-0256
+DEF-0050,Connectivity-Gateway,Moving Map,Major,2026-01-27,,Null reference in Content Loader when rapid channel switching occurs.,Code/Logic,REQ-0070
+DEF-0051,Connectivity-Gateway,Seat Display,Minor,2026-10-02,2026-10-27,Vendor library in Content Loader fails its license check at boot.,Supplier,REQ-0046
+DEF-0052,Crew-Tablet,Media Player,Minor,2026-08-26,2026-10-07,Off-by-one error in Moving Map list index skips the last item.,Code/Logic,REQ-0059
+DEF-0053,IFE-Seatback,Content Loader,Major,2026-04-25,2026-06-03,"Spec for Wi-Fi portal login had no acceptance criteria, so behavior during a language change was undefined.",Requirements,REQ-0024
+DEF-0054,Connectivity-Gateway,Moving Map,Minor,2026-02-16,2026-03-01,Two requirements for audio language selection conflict on timeout behavior.,Requirements,REQ-0184
+DEF-0055,IFE-Seatback,Media Player,Minor,2026-08-01,2026-08-27,Off-by-one error in Media Player list index skips the last item.,Code/Logic,REQ-0135
+DEF-0056,IFE-Seatback,Seat Display,Critical,2026-05-16,2026-06-07,Null reference in Network Gateway when a language change occurs.,Code/Logic,REQ-0168
+DEF-0057,IFE-Seatback,Content Loader,Major,2026-04-25,,Release notes omitted a known issue in Seat Display.,Process/Documentation,REQ-0084
+DEF-0058,Crew-Tablet,Crew Panel,Minor,2026-07-17,2026-08-12,Content Loader and Network Gateway disagree on the message format. Also noted: requirement for parental controls was ambiguous; build did not match the airline's expectation.,Integration/Interface,
+DEF-0059,IFE-Seatback,Seat Display,Major,2026-08-08,2026-09-24,Null reference in Network Gateway when low bandwidth occurs.,Code/Logic,REQ-0234
+DEF-0060,Connectivity-Gateway,Media Player,Major,2025-12-24,2026-02-04,Wrong configuration file deployed to Content Loader.,Configuration/Build,REQ-0076
+DEF-0061,Connectivity-Gateway,Content Loader,Minor,2026-04-01,2026-05-09,Wrong unit conversion in Network Gateway shows incorrect values.,Code/Logic,REQ-0220
+DEF-0062,IFE-Seatback,Crew Panel,Minor,2025-12-17,2025-12-24,Feature flag for seat pairing left disabled in the release config.,Configuration/Build,
+DEF-0063,IFE-Seatback,Network Gateway,Minor,2026-03-29,2026-05-14,Media Player and Crew Panel disagree on the message format.,Integration/Interface,REQ-0138
+DEF-0064,Crew-Tablet,Media Player,Major,2026-03-18,,Work instruction for loading seat pairing content is out of date.,Process/Documentation,REQ-0149
+DEF-0065,Connectivity-Gateway,Seat Display,Major,2026-06-04,2026-07-28,Wrong configuration file deployed to Seat Display.,Configuration/Build,REQ-0169
+DEF-0066,Connectivity-Gateway,Crew Panel,Minor,2026-05-03,2026-06-30,Design of Content Loader did not account for a flight longer than 14 hours.,Design,
+DEF-0067,IFE-Seatback,Moving Map,Minor,2026-10-27,,Build pulled an outdated library version for Crew Panel.,Configuration/Build,REQ-0168
+DEF-0068,IFE-Seatback,Crew Panel,Major,2026-07-05,2026-08-20,Wrong configuration file deployed to Media Player.,Configuration/Build,REQ-0030
+DEF-0069,Connectivity-Gateway,Media Player,Minor,2026-03-04,2026-03-24,Content Loader sends parental controls events that Seat Display does not recognize.,Integration/Interface,REQ-0034
+DEF-0070,Connectivity-Gateway,Crew Panel,Minor,2026-04-11,2026-05-15,Peer review was skipped before merging the Content Loader change.,Process/Documentation,REQ-0232
+DEF-0071,Crew-Tablet,Moving Map,Major,2026-04-05,,Supplier part in Network Gateway does not meet the agreed spec under a seat power cycle.,Supplier,REQ-0296
+DEF-0072,Connectivity-Gateway,Media Player,Critical,2026-10-03,2026-11-03,No regression test for Media Player after the last change.,Test gap,REQ-0199
+DEF-0073,IFE-Seatback,Content Loader,Major,2025-11-24,,Wrong unit conversion in Media Player shows incorrect values. Also noted: supplier part in seat display does not meet the agreed spec under a language change.,Code/Logic,REQ-0291
+DEF-0074,Crew-Tablet,Content Loader,Minor,2026-10-11,,Off-by-one error in Content Loader list index skips the last item. Also noted: moving map image built with debug settings enabled.,Code/Logic,REQ-0050
+DEF-0075,Crew-Tablet,Moving Map,Minor,2026-09-04,2026-09-27,Two requirements for Wi-Fi portal login conflict on timeout behavior.,Requirements,REQ-0173
+DEF-0076,IFE-Seatback,Crew Panel,Minor,2026-05-31,2026-07-29,Timeout calling the Moving Map interface from Crew Panel.,Integration/Interface,REQ-0114
+DEF-0077,Crew-Tablet,Crew Panel,Minor,2026-01-07,,Build pulled an outdated library version for Moving Map.,Configuration/Build,
+DEF-0078,Connectivity-Gateway,Crew Panel,Minor,2026-08-26,2026-10-10,Race condition in Content Loader threads during low bandwidth. Also noted: crew panel architecture does not handle rapid channel switching.,Code/Logic,REQ-0061
+DEF-0079,Crew-Tablet,Crew Panel,Minor,2026-03-09,2026-03-15,Supplier firmware for Moving Map delivered without a change log. Also noted: release notes omitted a known issue in crew panel.,Supplier,REQ-0269
+DEF-0080,Crew-Tablet,Content Loader,Minor,2025-11-25,,Race condition in Moving Map threads during a language change.,Code/Logic,REQ-0299
+DEF-0081,Connectivity-Gateway,Crew Panel,Minor,2026-02-24,,Work instruction for loading crew announcements content is out of date. Also noted: api version mismatch between network gateway and the ground server.,Process/Documentation,
+DEF-0082,Crew-Tablet,Content Loader,Major,2026-07-22,2026-07-27,Vendor library in Seat Display fails its license check at boot. Also noted: no regression test for media player after the last change.,Supplier,
+DEF-0083,Crew-Tablet,Moving Map,Minor,2026-10-05,,Third-party codec in Crew Panel crashes during a seat power cycle.,Supplier,REQ-0194
+DEF-0084,Crew-Tablet,Seat Display,Minor,2026-08-02,2026-08-27,State machine in Network Gateway can reach an invalid state during a seat power cycle.,Design,REQ-0182
+DEF-0085,Crew-Tablet,Content Loader,Major,2025-11-05,2025-11-30,Supplier firmware for Media Player delivered without a change log.,Supplier,REQ-0110
+DEF-0086,Crew-Tablet,Content Loader,Minor,2026-05-11,2026-06-15,Customer changed the Wi-Fi portal login requirement after baseline; software follows the old spec. Also noted: design of moving map did not account for a language change.,Requirements,
+DEF-0087,IFE-Seatback,Seat Display,Minor,2026-10-17,2026-10-26,Crew Panel image built with debug settings enabled. Also noted: test case for parental controls checked the wrong expected value and passed anyway.,Configuration/Build,REQ-0099
+DEF-0088,Crew-Tablet,Content Loader,Major,2026-02-25,,parental controls was only tested on one seat model.,Test gap,REQ-0248
+DEF-0089,IFE-Seatback,Media Player,Major,2026-08-27,2026-10-23,Network Gateway and Crew Panel disagree on the message format.,Integration/Interface,REQ-0147
+DEF-0090,Crew-Tablet,Seat Display,Major,2025-11-16,2025-12-23,Wrong unit conversion in Moving Map shows incorrect values.,Code/Logic,REQ-0281
+DEF-0091,IFE-Seatback,Seat Display,Major,2026-08-11,,Wrong configuration file deployed to Moving Map.,Configuration/Build,
+DEF-0092,Crew-Tablet,Crew Panel,Minor,2026-04-26,2026-06-25,Design of Seat Display did not account for a mid-flight content update.,Design,REQ-0071
+DEF-0093,Crew-Tablet,Moving Map,Minor,2025-11-28,,Wrong configuration file deployed to Network Gateway. Also noted: network gateway sends moving map events that crew panel does not recognize.,Configuration/Build,REQ-0038
+DEF-0094,IFE-Seatback,Network Gateway,Minor,2026-02-08,2026-03-11,Race condition in Crew Panel threads during a mid-flight content update.,Code/Logic,REQ-0165
+DEF-0095,Connectivity-Gateway,Crew Panel,Minor,2026-03-07,2026-04-24,State machine in Network Gateway can reach an invalid state during a language change.,Design,REQ-0172
+DEF-0096,Connectivity-Gateway,Crew Panel,Minor,2026-07-08,2026-07-22,Race condition in Seat Display threads during rapid channel switching.,Code/Logic,REQ-0280
+DEF-0097,IFE-Seatback,Moving Map,Minor,2026-07-18,2026-09-11,"Spec for Wi-Fi portal login had no acceptance criteria, so behavior during a mid-flight content update was undefined.",Requirements,REQ-0252
+DEF-0098,Connectivity-Gateway,Moving Map,Minor,2026-05-20,2026-07-11,Timeout calling the Content Loader interface from Seat Display. Also noted: null reference in crew panel when a language change occurs.,Integration/Interface,REQ-0196
+DEF-0099,IFE-Seatback,Crew Panel,Minor,2026-01-31,2026-03-11,Design of Crew Panel did not account for low bandwidth.,Design,REQ-0027
+DEF-0100,IFE-Seatback,Network Gateway,Major,2025-11-22,2025-12-28,Wrong unit conversion in Media Player shows incorrect values. Also noted: timeout calling the network gateway interface from crew panel.,Code/Logic,REQ-0147
+DEF-0101,Connectivity-Gateway,Media Player,Minor,2026-08-28,2026-10-23,Seat Display image built with debug settings enabled.,Configuration/Build,REQ-0184
+DEF-0102,IFE-Seatback,Content Loader,Major,2026-07-15,,Peer review was skipped before merging the Moving Map change. Also noted: null reference in crew panel when rapid channel switching occurs.,Process/Documentation,REQ-0186
+DEF-0103,Connectivity-Gateway,Content Loader,Critical,2026-02-16,2026-04-01,Wrong configuration file deployed to Seat Display. Also noted: moving map and seat display disagree on the message format.,Configuration/Build,REQ-0070
+DEF-0104,Connectivity-Gateway,Crew Panel,Critical,2026-09-03,,Test case for seat pairing checked the wrong expected value and passed anyway.,Test gap,REQ-0064
+DEF-0105,Connectivity-Gateway,Seat Display,Minor,2026-09-04,2026-10-14,State machine in Seat Display can reach an invalid state during a mid-flight content update.,Design,REQ-0148
+DEF-0106,IFE-Seatback,Crew Panel,Minor,2026-02-12,2026-03-19,"Spec for moving map had no acceptance criteria, so behavior during a flight longer than 14 hours was undefined.",Requirements,REQ-0207
+DEF-0107,IFE-Seatback,Moving Map,Minor,2025-12-18,2025-12-29,Scenario with a flight longer than 14 hours was not covered by the test suite and escaped to the field.,Test gap,
+DEF-0108,IFE-Seatback,Network Gateway,Minor,2026-07-05,2026-08-01,Scenario with a flight longer than 14 hours was not covered by the test suite and escaped to the field.,Test gap,REQ-0033
+DEF-0109,Crew-Tablet,Crew Panel,Minor,2026-05-29,2026-06-01,Null reference in Moving Map when a mid-flight content update occurs. Also noted: release notes omitted a known issue in crew panel.,Code/Logic,
+DEF-0110,Crew-Tablet,Content Loader,Minor,2026-03-10,2026-04-16,Race condition in Crew Panel threads during a flight longer than 14 hours.,Code/Logic,REQ-0068
+DEF-0111,Crew-Tablet,Moving Map,Major,2026-07-06,2026-07-28,Wrong unit conversion in Crew Panel shows incorrect values.,Code/Logic,REQ-0269
+DEF-0112,IFE-Seatback,Network Gateway,Minor,2026-02-18,2026-04-12,Third-party codec in Seat Display crashes during low bandwidth.,Supplier,REQ-0183
+DEF-0113,Connectivity-Gateway,Network Gateway,Critical,2025-12-16,2026-01-02,Peer review was skipped before merging the Crew Panel change.,Process/Documentation,REQ-0229
+DEF-0114,IFE-Seatback,Seat Display,Minor,2026-09-24,2026-09-27,Customer changed the audio language selection requirement after baseline; software follows the old spec.,Requirements,REQ-0066
+DEF-0115,Connectivity-Gateway,Media Player,Minor,2026-03-03,2026-03-16,Network Gateway image built with debug settings enabled.,Configuration/Build,
+DEF-0116,IFE-Seatback,Moving Map,Minor,2026-08-09,2026-10-04,Feature flag for moving map left disabled in the release config.,Configuration/Build,REQ-0156
+DEF-0117,Connectivity-Gateway,Moving Map,Critical,2026-01-29,2026-02-07,Test case for audio language selection checked the wrong expected value and passed anyway.,Test gap,REQ-0220
+DEF-0118,Connectivity-Gateway,Seat Display,Minor,2026-05-13,2026-07-04,Crew Panel design assumes a single user session; fails with audio language selection.,Design,REQ-0145
+DEF-0119,IFE-Seatback,Network Gateway,Minor,2026-10-13,,Feature flag for parental controls left disabled in the release config.,Configuration/Build,REQ-0036
+DEF-0120,Crew-Tablet,Content Loader,Major,2026-04-25,2026-05-09,Off-by-one error in Moving Map list index skips the last item.,Code/Logic,REQ-0191
+DEF-0121,IFE-Seatback,Seat Display,Major,2026-03-04,,API version mismatch between Moving Map and the ground server. Also noted: two requirements for audio language selection conflict on timeout behavior.,Integration/Interface,REQ-0144
+DEF-0122,Connectivity-Gateway,Content Loader,Major,2026-08-22,,Feature flag for audio language selection left disabled in the release config. Also noted: supplier part in content loader does not meet the agreed spec under a mid-flight content update.,Configuration/Build,REQ-0262
+DEF-0123,Connectivity-Gateway,Network Gateway,Minor,2026-01-01,2026-02-02,Crew Panel and Seat Display disagree on the message format. Also noted: race condition in seat display threads during a seat power cycle.,Integration/Interface,REQ-0235
+DEF-0124,IFE-Seatback,Crew Panel,Minor,2026-07-14,2026-08-12,Race condition in Content Loader threads during a seat power cycle.,Code/Logic,REQ-0264
+DEF-0125,IFE-Seatback,Moving Map,Minor,2026-03-19,,Seat Display design assumes a single user session; fails with crew announcements.,Design,
+DEF-0126,IFE-Seatback,Network Gateway,Minor,2026-09-19,2026-11-07,Race condition in Network Gateway threads during low bandwidth.,Code/Logic,REQ-0024
+DEF-0127,Connectivity-Gateway,Media Player,Minor,2026-07-02,,State machine in Network Gateway can reach an invalid state during a mid-flight content update.,Design,REQ-0133
+DEF-0128,IFE-Seatback,Moving Map,Major,2026-04-29,,"Spec for Wi-Fi portal login had no acceptance criteria, so behavior during a language change was undefined.",Requirements,REQ-0174
+DEF-0129,Connectivity-Gateway,Seat Display,Minor,2026-09-11,2026-10-24,Work instruction for loading audio language selection content is out of date.,Process/Documentation,
+DEF-0130,IFE-Seatback,Crew Panel,Major,2026-04-10,2026-05-01,Network Gateway design assumes a single user session; fails with Wi-Fi portal login.,Design,REQ-0159
+DEF-0131,IFE-Seatback,Network Gateway,Minor,2026-01-04,2026-02-18,Seat Display architecture does not handle low bandwidth. Also noted: wrong configuration file deployed to media player.,Design,
+DEF-0132,IFE-Seatback,Content Loader,Major,2026-10-02,,No regression test for Crew Panel after the last change. Also noted: api version mismatch between media player and the ground server.,Test gap,REQ-0126
+DEF-0133,Connectivity-Gateway,Moving Map,Minor,2026-08-04,,Release notes omitted a known issue in Moving Map.,Process/Documentation,REQ-0166
+DEF-0134,Crew-Tablet,Content Loader,Minor,2026-08-01,2026-08-26,Scenario with a flight longer than 14 hours was not covered by the test suite and escaped to the field.,Test gap,REQ-0002
+DEF-0135,IFE-Seatback,Media Player,Minor,2026-04-26,2026-06-02,parental controls was only tested on one seat model.,Test gap,REQ-0003
+DEF-0136,IFE-Seatback,Content Loader,Major,2026-05-30,,No regression test for Crew Panel after the last change.,Test gap,REQ-0093
+DEF-0137,Crew-Tablet,Crew Panel,Minor,2026-10-22,2026-11-12,Test case for parental controls checked the wrong expected value and passed anyway. Also noted: two requirements for wi-fi portal login conflict on timeout behavior.,Test gap,REQ-0074
+DEF-0138,IFE-Seatback,Media Player,Major,2025-11-26,,Null reference in Network Gateway when a language change occurs.,Code/Logic,
+DEF-0139,IFE-Seatback,Network Gateway,Minor,2026-07-11,2026-08-09,Two requirements for crew announcements conflict on timeout behavior.,Requirements,REQ-0057
+DEF-0140,Connectivity-Gateway,Seat Display,Minor,2025-12-07,2025-12-21,Customer changed the parental controls requirement after baseline; software follows the old spec.,Requirements,REQ-0169
+DEF-0141,IFE-Seatback,Media Player,Minor,2026-02-10,2026-04-03,Design of Content Loader did not account for rapid channel switching.,Design,REQ-0282
+DEF-0142,Crew-Tablet,Crew Panel,Major,2026-07-25,2026-08-27,Customer changed the parental controls requirement after baseline; software follows the old spec.,Requirements,REQ-0065
+DEF-0143,Crew-Tablet,Media Player,Minor,2026-01-01,2026-01-19,Crew Panel sends moving map events that Moving Map does not recognize.,Integration/Interface,REQ-0191
+DEF-0144,Crew-Tablet,Crew Panel,Critical,2026-04-23,,Customer changed the crew announcements requirement after baseline; software follows the old spec.,Requirements,
+DEF-0145,Crew-Tablet,Content Loader,Minor,2026-09-27,2026-11-20,Crew Panel architecture does not handle a language change. Also noted: two requirements for audio language selection conflict on timeout behavior.,Design,REQ-0188
+DEF-0146,IFE-Seatback,Content Loader,Major,2026-08-06,2026-09-24,Design of Media Player did not account for a flight longer than 14 hours.,Design,REQ-0141
+DEF-0147,Crew-Tablet,Media Player,Minor,2026-07-18,2026-08-01,Race condition in Moving Map threads during a language change. Also noted: seat display sends crew announcements events that moving map does not recognize.,Code/Logic,REQ-0059
+DEF-0148,Connectivity-Gateway,Media Player,Minor,2026-05-29,2026-06-08,Scenario with low bandwidth was not covered by the test suite and escaped to the field.,Test gap,REQ-0037
+DEF-0149,Crew-Tablet,Moving Map,Minor,2026-05-18,2026-06-23,Customer changed the moving map requirement after baseline; software follows the old spec.,Requirements,
+DEF-0150,Crew-Tablet,Media Player,Minor,2026-07-10,,Peer review was skipped before merging the Network Gateway change.,Process/Documentation,REQ-0023
+DEF-0151,Connectivity-Gateway,Network Gateway,Critical,2026-07-29,2026-08-05,API version mismatch between Moving Map and the ground server.,Integration/Interface,REQ-0073
+DEF-0152,IFE-Seatback,Moving Map,Minor,2026-08-19,2026-09-02,crew announcements was only tested on one seat model.,Test gap,REQ-0258
+DEF-0153,IFE-Seatback,Content Loader,Minor,2026-01-25,2026-03-04,Off-by-one error in Moving Map list index skips the last item.,Code/Logic,REQ-0126
+DEF-0154,Connectivity-Gateway,Network Gateway,Minor,2026-09-21,2026-11-09,Release notes omitted a known issue in Content Loader.,Process/Documentation,REQ-0151
+DEF-0155,IFE-Seatback,Seat Display,Minor,2026-03-26,2026-05-01,Customer changed the moving map requirement after baseline; software follows the old spec.,Requirements,
+DEF-0156,Crew-Tablet,Moving Map,Minor,2026-03-22,,API version mismatch between Media Player and the ground server. Also noted: race condition in moving map threads during rapid channel switching.,Integration/Interface,REQ-0035
+DEF-0157,Crew-Tablet,Network Gateway,Minor,2026-02-20,2026-04-10,No regression test for Content Loader after the last change.,Test gap,
+DEF-0158,Connectivity-Gateway,Network Gateway,Major,2025-12-11,2026-02-01,Content Loader sends moving map events that Media Player does not recognize.,Integration/Interface,REQ-0004
+DEF-0159,Crew-Tablet,Media Player,Major,2026-05-15,2026-06-20,Build pulled an outdated library version for Network Gateway. Also noted: change to content loader was made without an approved change request.,Configuration/Build,
+DEF-0160,Connectivity-Gateway,Content Loader,Minor,2026-01-15,2026-01-23,Null reference in Moving Map when low bandwidth occurs.,Code/Logic,REQ-0268
+DEF-0161,IFE-Seatback,Content Loader,Minor,2026-07-05,2026-08-08,"Spec for crew announcements had no acceptance criteria, so behavior during a mid-flight content update was undefined.",Requirements,
+DEF-0162,Connectivity-Gateway,Media Player,Major,2026-10-17,,Content Loader sends Wi-Fi portal login events that Network Gateway does not recognize.,Integration/Interface,REQ-0010
+DEF-0163,IFE-Seatback,Content Loader,Minor,2026-04-29,2026-06-22,Media Player sends moving map events that Seat Display does not recognize.,Integration/Interface,REQ-0033
+DEF-0164,IFE-Seatback,Seat Display,Minor,2026-03-05,,Customer changed the crew announcements requirement after baseline; software follows the old spec.,Requirements,REQ-0129
+DEF-0165,Crew-Tablet,Network Gateway,Minor,2026-02-17,2026-03-25,Design of Crew Panel did not account for a mid-flight content update.,Design,REQ-0098
+DEF-0166,Connectivity-Gateway,Network Gateway,Critical,2026-02-11,2026-03-25,Media Player architecture does not handle rapid channel switching.,Design,REQ-0139
+DEF-0167,IFE-Seatback,Crew Panel,Major,2026-03-30,,Change to Moving Map was made without an approved change request.,Process/Documentation,REQ-0072
+DEF-0168,Connectivity-Gateway,Media Player,Critical,2026-08-15,,State machine in Network Gateway can reach an invalid state during a language change. Also noted: test case for moving map checked the wrong expected value and passed anyway.,Design,REQ-0022
+DEF-0169,Connectivity-Gateway,Network Gateway,Major,2025-11-16,,Feature flag for parental controls left disabled in the release config.,Configuration/Build,REQ-0235
+DEF-0170,Crew-Tablet,Seat Display,Minor,2026-02-25,2026-04-05,Work instruction for loading seat pairing content is out of date. Also noted: api version mismatch between moving map and the ground server.,Process/Documentation,REQ-0119
+DEF-0171,Crew-Tablet,Seat Display,Minor,2026-01-09,2026-03-02,Build pulled an outdated library version for Network Gateway.,Configuration/Build,
+DEF-0172,IFE-Seatback,Content Loader,Minor,2025-11-16,2026-01-14,Race condition in Content Loader threads during a seat power cycle. Also noted: moving map architecture does not handle a mid-flight content update.,Code/Logic,REQ-0090
+DEF-0173,IFE-Seatback,Crew Panel,Minor,2026-10-18,2026-10-26,No regression test for Moving Map after the last change.,Test gap,REQ-0150
+DEF-0174,IFE-Seatback,Content Loader,Minor,2026-01-23,2026-01-28,Scenario with a language change was not covered by the test suite and escaped to the field.,Test gap,REQ-0081
+DEF-0175,Connectivity-Gateway,Content Loader,Minor,2026-09-12,2026-10-05,Two requirements for audio language selection conflict on timeout behavior.,Requirements,REQ-0151
+DEF-0176,Crew-Tablet,Crew Panel,Minor,2026-08-20,2026-09-25,Scenario with a flight longer than 14 hours was not covered by the test suite and escaped to the field.,Test gap,
+DEF-0177,Crew-Tablet,Media Player,Minor,2026-08-03,2026-09-22,Third-party codec in Seat Display crashes during a flight longer than 14 hours.,Supplier,REQ-0110
+DEF-0178,Connectivity-Gateway,Crew Panel,Minor,2026-03-31,2026-04-06,Off-by-one error in Content Loader list index skips the last item.,Code/Logic,REQ-0223
+DEF-0179,Crew-Tablet,Network Gateway,Minor,2026-08-07,2026-09-05,Supplier firmware for Content Loader delivered without a change log.,Supplier,
+DEF-0180,Crew-Tablet,Crew Panel,Major,2026-10-31,,Null reference in Crew Panel when rapid channel switching occurs. Also noted: change to crew panel was made without an approved change request.,Code/Logic,REQ-0146
+DEF-0181,IFE-Seatback,Seat Display,Major,2026-04-21,2026-06-05,"Spec for seat pairing had no acceptance criteria, so behavior during rapid channel switching was undefined.",Requirements,REQ-0174
+DEF-0182,IFE-Seatback,Seat Display,Critical,2025-12-31,,Race condition in Media Player threads during a flight longer than 14 hours.,Code/Logic,
+DEF-0183,IFE-Seatback,Content Loader,Minor,2026-02-20,2026-03-25,Peer review was skipped before merging the Moving Map change.,Process/Documentation,REQ-0243
+DEF-0184,IFE-Seatback,Crew Panel,Major,2025-11-26,2025-12-02,No regression test for Media Player after the last change.,Test gap,
+DEF-0185,IFE-Seatback,Crew Panel,Minor,2026-01-22,2026-03-05,"Spec for Wi-Fi portal login had no acceptance criteria, so behavior during low bandwidth was undefined. Also noted: test case for parental controls checked the wrong expected value and passed anyway.",Requirements,REQ-0027
+DEF-0186,IFE-Seatback,Network Gateway,Minor,2026-01-02,2026-01-22,Off-by-one error in Crew Panel list index skips the last item. Also noted: peer review was skipped before merging the content loader change.,Code/Logic,REQ-0123
+DEF-0187,Crew-Tablet,Moving Map,Minor,2026-09-16,2026-09-27,Content Loader design assumes a single user session; fails with audio language selection.,Design,REQ-0002
+DEF-0188,Connectivity-Gateway,Seat Display,Minor,2026-09-17,2026-11-06,Two requirements for Wi-Fi portal login conflict on timeout behavior.,Requirements,REQ-0004
+DEF-0189,Crew-Tablet,Network Gateway,Major,2026-03-25,2026-04-01,Feature flag for crew announcements left disabled in the release config.,Configuration/Build,REQ-0236
+DEF-0190,IFE-Seatback,Crew Panel,Minor,2026-02-08,2026-03-04,Supplier part in Media Player does not meet the agreed spec under a seat power cycle.,Supplier,REQ-0207
+DEF-0191,Connectivity-Gateway,Media Player,Minor,2026-05-31,,Work instruction for loading audio language selection content is out of date. Also noted: feature flag for moving map left disabled in the release config.,Process/Documentation,REQ-0130
+DEF-0192,Crew-Tablet,Moving Map,Minor,2026-08-01,,Supplier firmware for Moving Map delivered without a change log.,Supplier,REQ-0104
+DEF-0193,Connectivity-Gateway,Network Gateway,Major,2026-03-02,2026-04-27,Race condition in Seat Display threads during low bandwidth.,Code/Logic,REQ-0169
+DEF-0194,Connectivity-Gateway,Content Loader,Minor,2026-07-15,2026-08-08,Test case for parental controls checked the wrong expected value and passed anyway.,Test gap,
+DEF-0195,Connectivity-Gateway,Media Player,Critical,2026-05-18,2026-06-23,Crew Panel and Moving Map disagree on the message format.,Integration/Interface,
+DEF-0196,Crew-Tablet,Network Gateway,Minor,2026-04-09,2026-05-30,No regression test for Network Gateway after the last change.,Test gap,REQ-0170
+DEF-0197,Connectivity-Gateway,Media Player,Minor,2026-01-16,2026-01-26,Wrong configuration file deployed to Seat Display.,Configuration/Build,
+DEF-0198,Connectivity-Gateway,Network Gateway,Minor,2026-08-21,2026-08-28,Feature flag for parental controls left disabled in the release config. Also noted: peer review was skipped before merging the media player change.,Configuration/Build,REQ-0067
+DEF-0199,Crew-Tablet,Crew Panel,Minor,2026-09-19,,Feature flag for moving map left disabled in the release config.,Configuration/Build,REQ-0032
+DEF-0200,Connectivity-Gateway,Crew Panel,Minor,2026-08-18,2026-10-12,Supplier part in Network Gateway does not meet the agreed spec under a seat power cycle.,Supplier,
+DEF-0201,Connectivity-Gateway,Crew Panel,Major,2026-05-06,2026-06-22,Work instruction for loading parental controls content is out of date.,Process/Documentation,REQ-0178
+DEF-0202,Connectivity-Gateway,Moving Map,Major,2026-04-28,2026-05-09,Peer review was skipped before merging the Network Gateway change.,Process/Documentation,REQ-0154
+DEF-0203,IFE-Seatback,Content Loader,Major,2026-09-14,2026-09-27,Test case for seat pairing checked the wrong expected value and passed anyway.,Test gap,REQ-0267
+DEF-0204,Crew-Tablet,Moving Map,Minor,2026-10-09,,Moving Map architecture does not handle rapid channel switching.,Design,REQ-0068
+DEF-0205,Connectivity-Gateway,Moving Map,Minor,2025-12-06,2026-01-21,Wrong unit conversion in Network Gateway shows incorrect values. Also noted: design of moving map did not account for a language change.,Code/Logic,
+DEF-0206,Connectivity-Gateway,Seat Display,Minor,2026-09-12,2026-09-27,Test case for crew announcements checked the wrong expected value and passed anyway.,Test gap,REQ-0274
+DEF-0207,Connectivity-Gateway,Moving Map,Minor,2025-12-16,2026-01-27,Supplier firmware for Network Gateway delivered without a change log.,Supplier,
+DEF-0208,Connectivity-Gateway,Media Player,Major,2025-12-27,,crew announcements was only tested on one seat model.,Test gap,REQ-0082
+DEF-0209,Connectivity-Gateway,Network Gateway,Minor,2026-01-11,2026-02-07,"Build pulled an outdated library version for Network Gateway. Also noted: spec for crew announcements had no acceptance criteria, so behavior during a flight longer than 14 hours was undefined.",Configuration/Build,REQ-0052
+DEF-0210,Crew-Tablet,Crew Panel,Minor,2026-06-01,,Two requirements for seat pairing conflict on timeout behavior.,Requirements,REQ-0149
+DEF-0211,IFE-Seatback,Content Loader,Minor,2026-06-06,2026-07-15,Off-by-one error in Crew Panel list index skips the last item.,Code/Logic,REQ-0015
+DEF-0212,Crew-Tablet,Moving Map,Minor,2026-07-06,2026-07-16,Third-party codec in Seat Display crashes during a flight longer than 14 hours.,Supplier,REQ-0236
+DEF-0213,Connectivity-Gateway,Media Player,Minor,2026-09-19,2026-11-03,Customer changed the Wi-Fi portal login requirement after baseline; software follows the old spec.,Requirements,REQ-0196
+DEF-0214,Crew-Tablet,Network Gateway,Major,2026-04-19,2026-06-12,Peer review was skipped before merging the Crew Panel change.,Process/Documentation,REQ-0023
+DEF-0215,Crew-Tablet,Network Gateway,Minor,2026-01-26,2026-03-12,Wrong configuration file deployed to Network Gateway.,Configuration/Build,REQ-0107
+DEF-0216,Crew-Tablet,Media Player,Minor,2026-03-24,2026-04-12,Design of Moving Map did not account for a flight longer than 14 hours.,Design,REQ-0269
+DEF-0217,IFE-Seatback,Network Gateway,Minor,2026-07-29,,Design of Moving Map did not account for a flight longer than 14 hours.,Design,REQ-0171
+DEF-0218,IFE-Seatback,Network Gateway,Critical,2026-02-16,2026-04-13,Timeout calling the Crew Panel interface from Media Player.,Integration/Interface,REQ-0288
+DEF-0219,Crew-Tablet,Content Loader,Minor,2026-02-28,2026-04-17,Supplier firmware for Moving Map delivered without a change log.,Supplier,REQ-0260
+DEF-0220,Crew-Tablet,Media Player,Minor,2026-10-16,,Race condition in Content Loader threads during rapid channel switching.,Code/Logic,REQ-0038
+DEF-0221,Crew-Tablet,Crew Panel,Major,2026-05-20,2026-07-05,Design of Moving Map did not account for a language change.,Design,REQ-0005
+DEF-0222,IFE-Seatback,Media Player,Minor,2025-11-07,2025-12-13,Feature flag for Wi-Fi portal login left disabled in the release config. Also noted: media player and moving map disagree on the message format.,Configuration/Build,REQ-0246
+DEF-0223,IFE-Seatback,Seat Display,Major,2025-12-15,,"Spec for Wi-Fi portal login had no acceptance criteria, so behavior during rapid channel switching was undefined.",Requirements,REQ-0246
+DEF-0224,Connectivity-Gateway,Network Gateway,Major,2026-06-07,2026-07-22,Null reference in Network Gateway when a flight longer than 14 hours occurs.,Code/Logic,
+DEF-0225,Connectivity-Gateway,Seat Display,Minor,2026-01-31,2026-03-06,Supplier firmware for Crew Panel delivered without a change log.,Supplier,REQ-0235
+DEF-0226,Connectivity-Gateway,Media Player,Minor,2026-03-13,2026-03-20,Feature flag for seat pairing left disabled in the release config.,Configuration/Build,
+DEF-0227,Connectivity-Gateway,Content Loader,Minor,2026-03-17,2026-04-10,Two requirements for seat pairing conflict on timeout behavior.,Requirements,REQ-0208
+DEF-0228,Connectivity-Gateway,Content Loader,Major,2026-10-19,,State machine in Network Gateway can reach an invalid state during low bandwidth.,Design,REQ-0034
+DEF-0229,Connectivity-Gateway,Network Gateway,Minor,2025-12-12,,Off-by-one error in Moving Map list index skips the last item. Also noted: change to media player was made without an approved change request.,Code/Logic,REQ-0169
+DEF-0230,IFE-Seatback,Moving Map,Major,2025-11-19,2026-01-07,Media Player sends crew announcements events that Moving Map does not recognize.,Integration/Interface,REQ-0174
+DEF-0231,IFE-Seatback,Crew Panel,Critical,2025-11-19,2025-12-13,Third-party codec in Seat Display crashes during a language change.,Supplier,REQ-0285
+DEF-0232,IFE-Seatback,Crew Panel,Critical,2025-11-19,2025-12-23,Scenario with a seat power cycle was not covered by the test suite and escaped to the field.,Test gap,REQ-0039
+DEF-0233,IFE-Seatback,Media Player,Major,2026-08-30,2026-10-24,Off-by-one error in Media Player list index skips the last item.,Code/Logic,REQ-0261
+DEF-0234,IFE-Seatback,Network Gateway,Minor,2026-10-17,2026-10-28,Off-by-one error in Media Player list index skips the last item. Also noted: no regression test for content loader after the last change.,Code/Logic,REQ-0171
+DEF-0235,Crew-Tablet,Crew Panel,Minor,2025-11-21,2026-01-13,Design of Media Player did not account for low bandwidth. Also noted: customer changed the crew announcements requirement after baseline; software follows the old spec.,Design,REQ-0245
+DEF-0236,Connectivity-Gateway,Moving Map,Minor,2026-05-30,2026-06-13,Off-by-one error in Crew Panel list index skips the last item.,Code/Logic,REQ-0133
+DEF-0237,Crew-Tablet,Media Player,Minor,2026-03-01,2026-04-06,Off-by-one error in Content Loader list index skips the last item. Also noted: supplier firmware for crew panel delivered without a change log.,Code/Logic,REQ-0017
+DEF-0238,Connectivity-Gateway,Network Gateway,Minor,2026-03-26,2026-04-14,Two requirements for crew announcements conflict on timeout behavior.,Requirements,REQ-0010
+DEF-0239,IFE-Seatback,Crew Panel,Minor,2025-12-07,,Test case for crew announcements checked the wrong expected value and passed anyway.,Test gap,REQ-0045
+DEF-0240,IFE-Seatback,Seat Display,Major,2026-03-02,2026-04-29,Off-by-one error in Media Player list index skips the last item. Also noted: build pulled an outdated library version for seat display.,Code/Logic,REQ-0054
+DEF-0241,IFE-Seatback,Seat Display,Major,2026-09-20,2026-10-10,Null reference in Crew Panel when rapid channel switching occurs. Also noted: supplier part in content loader does not meet the agreed spec under rapid channel switching.,Code/Logic,REQ-0114
+DEF-0242,Crew-Tablet,Moving Map,Minor,2026-09-10,,No regression test for Media Player after the last change.,Test gap,REQ-0182
+DEF-0243,Connectivity-Gateway,Seat Display,Major,2025-11-08,2025-12-28,Moving Map sends audio language selection events that Seat Display does not recognize.,Integration/Interface,REQ-0160
+DEF-0244,IFE-Seatback,Media Player,Minor,2026-06-29,2026-08-03,Supplier part in Content Loader does not meet the agreed spec under a flight longer than 14 hours.,Supplier,REQ-0006
+DEF-0245,Connectivity-Gateway,Seat Display,Minor,2026-02-20,2026-03-13,Wrong configuration file deployed to Media Player. Also noted: scenario with a language change was not covered by the test suite and escaped to the field.,Configuration/Build,REQ-0142
+DEF-0246,Crew-Tablet,Media Player,Major,2026-09-21,2026-11-03,Feature flag for Wi-Fi portal login left disabled in the release config.,Configuration/Build,REQ-0236
+DEF-0247,IFE-Seatback,Network Gateway,Minor,2026-10-17,,Scenario with low bandwidth was not covered by the test suite and escaped to the field.,Test gap,REQ-0018
+DEF-0248,IFE-Seatback,Moving Map,Minor,2026-09-28,2026-10-05,Off-by-one error in Seat Display list index skips the last item. Also noted: build pulled an outdated library version for crew panel.,Code/Logic,REQ-0195
+DEF-0249,Connectivity-Gateway,Content Loader,Minor,2025-11-28,2025-12-23,Wrong configuration file deployed to Content Loader.,Configuration/Build,REQ-0142
+DEF-0250,Crew-Tablet,Content Loader,Critical,2025-12-04,2026-02-01,"Seat Display sends parental controls events that Network Gateway does not recognize. Also noted: spec for moving map had no acceptance criteria, so behavior during a mid-flight content update was undefined.",Integration/Interface,REQ-0008
+DEF-0251,IFE-Seatback,Crew Panel,Minor,2026-07-02,,Media Player and Seat Display disagree on the message format.,Integration/Interface,REQ-0114
+DEF-0252,IFE-Seatback,Moving Map,Minor,2026-02-13,,Test case for seat pairing checked the wrong expected value and passed anyway.,Test gap,
+DEF-0253,Connectivity-Gateway,Content Loader,Minor,2026-01-20,,Content Loader image built with debug settings enabled.,Configuration/Build,REQ-0142
+DEF-0254,Connectivity-Gateway,Content Loader,Minor,2026-10-21,,"Spec for seat pairing had no acceptance criteria, so behavior during rapid channel switching was undefined.",Requirements,REQ-0151
+DEF-0255,IFE-Seatback,Network Gateway,Minor,2026-09-18,,Requirement for Wi-Fi portal login was ambiguous; build did not match the airline's expectation.,Requirements,REQ-0057
+DEF-0256,IFE-Seatback,Crew Panel,Minor,2026-02-04,,No regression test for Crew Panel after the last change.,Test gap,REQ-0045
+DEF-0257,Crew-Tablet,Content Loader,Major,2026-09-13,,Supplier firmware for Seat Display delivered without a change log.,Supplier,REQ-0260
+DEF-0258,Connectivity-Gateway,Content Loader,Major,2026-10-17,,Build pulled an outdated library version for Content Loader.,Configuration/Build,REQ-0262
+DEF-0259,IFE-Seatback,Media Player,Major,2026-10-31,,Crew Panel and Network Gateway disagree on the message format.,Integration/Interface,REQ-0147
+DEF-0260,IFE-Seatback,Network Gateway,Minor,2026-08-28,,No regression test for Moving Map after the last change.,Test gap,REQ-0033
+DEF-0261,IFE-Seatback,Seat Display,Minor,2026-11-14,,"Spec for moving map had no acceptance criteria, so behavior during low bandwidth was undefined.",Requirements,REQ-0066
+DEF-0262,Crew-Tablet,Network Gateway,Major,2026-05-18,,Feature flag for seat pairing left disabled in the release config.,Configuration/Build,REQ-0236
+DEF-0263,Connectivity-Gateway,Network Gateway,Critical,2026-04-20,,Design of Moving Map did not account for a language change. Also noted: wrong configuration file deployed to seat display.,Design,REQ-0139
+DEF-0264,IFE-Seatback,Seat Display,Major,2026-08-06,,"seat pairing was only tested on one seat model. Also noted: spec for moving map had no acceptance criteria, so behavior during rapid channel switching was undefined.",Test gap,REQ-0036
+DEF-0265,Crew-Tablet,Moving Map,Minor,2026-10-06,,Requirement for seat pairing was ambiguous; build did not match the airline's expectation.,Requirements,REQ-0173
